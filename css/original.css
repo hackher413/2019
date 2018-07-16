@@ -26,7 +26,6 @@ h1{
 }
 
 body {
-  background-color: #F5699C;
 }
 
 section {
@@ -52,13 +51,16 @@ section {
  * Hero Section
  */
 
+#Viz{
+    position:absolute;
+}
+
 .hero {
-  background-color: #F5699C;
   min-height: 110vh;
+  position:relative;
 }
 
 .hero hr {
-  border-top: 15px solid #0F2C34;
   margin: 0;
   position: relative;
   top: -14px;
@@ -67,17 +69,7 @@ section {
 .hero .wrapper {
   padding-top:;
 }
-/*
-.hero .wrapper h1 {
-  background: #fff;
-  background: rgba(255, 255, 255, .3);
-  display: inline-block;
-  font-size: 60px;
-  font-weight: 800;
-  letter-spacing: -2px;
-  padding: 10px 30px;
-}
-*/
+
 .hero .wrapper h1 {
   display: inline-block;
   padding-left: 10px 30px;
@@ -128,10 +120,11 @@ section {
    position:relative; 
    display: inline-block;
    background-image: url("../images/Capture.PNG");
+   background-repeat:no-repeat;
    background-size: 100%;
-   width: 500px; max-width: 500px;
-   height: 500px; max-height: 500px;
-   width:;
+   margin-top: 400px;
+   width: 200px; max-width: 200px;
+   height: 200px; max-height: 200px;
    -webkit-transition: background 300ms ease-in 2s; /* property duration timing-function delay */
     -moz-transition: background 300ms ease-in 2s;
     -o-transition: background 300ms ease-in 2s;
@@ -163,27 +156,22 @@ section {
     background-image: url("../images/Capture3.PNG");
 }
 
-.hero .logotext{
-  position:absolute;
-  left:50px; 
-  top:20px; 
+.logotext {
   font-family:'IBM Plex Sans Condensed', sans-serif;
-  display:inline-block;
-  top:-10px;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
+  border-right: .15em solid black; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .2em; /* Adjust as needed */
+  letter-spacing: .15em; /* Adjust as needed */
   animation: 
-    typing 2s steps(10, end),
+    typing 6s steps(40, end),
     blink-caret .75s step-end infinite;
 }
 
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
-  to { width: 20% }
+  to { width: 100% }
 }
 
 /* The typewriter cursor effect */
@@ -191,7 +179,6 @@ section {
   from, to { border-color: transparent }
   50% { border-color: orange; }
 }
-
 /* 
  * About Section
  */
@@ -331,7 +318,7 @@ section {
   }
 }
 
-/* Rainbow background */
+/* 
 .rainbow { 
 
 background: linear-gradient(130deg, #ecb4bf, #bfffe6, #a7e4ae, #fdf3b8 , #47d1d5 , #8699d1, #fdd6b5, #47d1d5, #e8d2ff);
@@ -362,3 +349,4 @@ background-size: 1800% 1800%;
     50%{background-position:100% 19%}
     100%{background-position:0% 82%}
 }
+Rainbow background */
