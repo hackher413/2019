@@ -8,7 +8,7 @@ baseurl: ""
 
 # If you're using GitHub pages without a custom domain, this is "https://[github username].github.io"
 # If you're using GitHub pages with a custom domain, this is "http://[your domain]" (or https if you're using SSL)
-url: "https://mlh.github.io"
+url: "https://hackher413.github.io"
 
 # The ability to use custom themes.
 style:
@@ -20,20 +20,20 @@ tracking:
 
 # Let people connect & engage with you through social media.
 social:
-  twitter_handle: "MLHacks"
+  twitter_handle: "#"
 
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
-  title:       "Example Hacks | 5/6 August 2016"
-  description: "An all-female and femme non binary hackathon at UMass Amherst."
+  title:       "HackHer413 | February 2019"
+  description: "A hackathon for women and non-binary people at UMass Amherst."
   image:       "https://prime.mlh.io/img/logos/mlh-prime-color.svg"
 
 # Event information.
 event:
   name:        "HackHer 413"
   image:       "images/logo1.png"
-  description: "The first all-female and femme non binary hackathon for the Five Collges."
-  date:        "March 2018"
+  description: "A hackathon for women and non-binary people from the Five Colleges."
+  date:        "February 2019"
   location:    "UMass Amherst"
   image:       "../images/logo1.png"
 
@@ -88,7 +88,7 @@ event:
         have graduated within the past 12 months are eligible to attend.
     - question: "Where is the event?"
       answer: >
-        The event is being hosted at [insert venue location here].
+        The event is being hosted at UMass Amherst.
     - question: "What is Major League Hacking?"
       answer: >
         Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
