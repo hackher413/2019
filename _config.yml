@@ -42,14 +42,14 @@ event:
   #   region: "eu"    # "na" or "eu"
   #   color:  "white" # "white", "black", "gray", "red", "blue" or "yellow"
 
-  hero:
-    links:
-      - text: "Apply"
-        my_mlh:
-          client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
-          redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
-      - text: "Sponsor"
-        href: "mailto:sponsorship@website.com"
+  # hero:
+  #   links:
+  #     - text: "Apply"
+  #       my_mlh:
+  #         client_id:    "0e2f9fc2921d3ad3e12ae900af630d09382e1b3dc1b5b50de2b01b70ad64dbee"
+  #         redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
+  #     - text: "Sponsor"
+  #       href: "mailto:sponsorship@website.com"
 
   about:
     description: >
@@ -90,13 +90,13 @@ event:
     - question: "Where is the event?"
       answer: >
         The event is being hosted at UMass Amherst.
-    - question: "What is Major League Hacking?"
-      answer: >
-        Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
-        We work with over 200 Member Events and empower over 70,000 students every year.
-    - question: "Is there a code of conduct?"
-      answer: >
-        Yes there is. We enforce it very strongly. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
+    # - question: "What is Major League Hacking?"
+    #   answer: >
+    #     Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
+    #     We work with over 200 Member Events and empower over 70,000 students every year.
+    # - question: "Is there a code of conduct?"
+    #   answer: >
+    #     Yes there is. We enforce it very strongly. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
 
   # This is the message you'll receive once you've registered.
   register:
