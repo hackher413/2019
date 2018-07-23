@@ -26,7 +26,7 @@ social:
 seo:
   title:       "HackHer413 | February 2019"
   description: "A hackathon for women and non-binary people at UMass Amherst."
-  image:       "https://prime.mlh.io/img/logos/mlh-prime-color.svg"
+  image:       "images/5.png"
 
 # Event information.
 event:
@@ -59,21 +59,9 @@ event:
       that they are passionate about. This student-run hackathon aims to help increase
       diversity in the tech industry. We hope you can join us!
 
-  # Info Sections
-  info:
-    sections:
-      - image: "images/image1.png"
-        title: "LEARN."
-        description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
-      - image: "images/image2.png"
-        title: "BUILD."
-        description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
-      - image: "images/image3.png"
-        title: "SHARE."
-        description: >
-          We can write something nice with a graphic (as above) to make the event more appealing.
+  # Sponsors Section
+  sponsors:
+    description: Sponsor information coming soon!
 
   # Frequently asked questions.
   faq:
@@ -97,6 +85,9 @@ event:
     # - question: "Is there a code of conduct?"
     #   answer: >
     #     Yes there is. We enforce it very strongly. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
+
+# Meet the Team.
+
 
   # This is the message you'll receive once you've registered.
   register:

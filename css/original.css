@@ -47,7 +47,7 @@ section {
   z-index: 10000;
 }
 
-/* 
+/*
  * Hero Section
  */
 
@@ -117,7 +117,7 @@ section {
 }
 
 .hero .logo {
-   position:relative; 
+   position:relative;
    display: inline-block;
    background-image: url("../images/Capture.PNG");
    background-repeat:no-repeat;
@@ -152,9 +152,9 @@ section {
     transition-delay: 100ms;
 }
 
-.hero .logo:hover {
+/* .hero .logo:hover {
     background-image: url("../images/Capture3.PNG");
-}
+} */
 
 .logotext {
   font-family:'IBM Plex Sans Condensed', sans-serif;
@@ -163,7 +163,7 @@ section {
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
-  animation: 
+  animation:
     typing 6s steps(40, end),
     blink-caret .75s step-end infinite;
 }
@@ -179,14 +179,14 @@ section {
   from, to { border-color: transparent }
   50% { border-color: orange; }
 }
-/* 
+/*
  * About Section
  */
 
 .about {
   border-width: 15px 0;
-  background-color: #fff;
-  padding: 130px 0;
+  background-color: #C7E3F0;
+  padding: 100px 0;
   position: relative;
 }
 
@@ -204,33 +204,28 @@ section {
 }
 
 /*
- * Info Section
+ * Sponsors Section
  */
 
-.info {
+.sponsors {
   background-color: #fff;
   margin-top: 15px;
-  padding: 100px 0;
+  padding: 30px 0;
   position: relative;
 }
 
-.info .item {
-  padding: 20px;
-}
-
-.info .item h1 {
+.sponsors h1 {
   font-family: 'Montserrat';
-  font-size: 45px;
   font-weight: 700;
   margin: 20px 0;
 }
 
-.info .item img {
-  max-width: 220px;
-}
-
-.info .item p {
-  font-size: 20px;
+.sponsors p {
+  color: #0F2C34;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.6em;
+  letter-spacing: -.3px;
 }
 
 /*
@@ -278,7 +273,7 @@ section {
  */
 
 .footer {
-  background-color: #F5699C;
+  background-color: #C3BDF1;
   color: #fff;
   padding: 30px 0;
 }
@@ -318,8 +313,8 @@ section {
   }
 }
 
-/* 
-.rainbow { 
+/*
+.rainbow {
 
 background: linear-gradient(130deg, #ecb4bf, #bfffe6, #a7e4ae, #fdf3b8 , #47d1d5 , #8699d1, #fdd6b5, #47d1d5, #e8d2ff);
 background-size: 1800% 1800%;
@@ -344,7 +339,7 @@ background-size: 1800% 1800%;
     50%{background-position:100% 19%}
     100%{background-position:0% 82%}
 }
-@keyframes rainbow { 
+@keyframes rainbow {
     0%{background-position:0% 82%}
     50%{background-position:100% 19%}
     100%{background-position:0% 82%}
