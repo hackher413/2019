@@ -24,9 +24,35 @@ layout: default
   </div>
 </section>
 
-
-
 <section class="faq">
+  <div class="container">
+  <h1 class="text-center">FAQ</h1>
+  {% for item in site.event.faq %}
+  <button class="accordion">{{ item.question }}</button>
+    <div class="panel">
+      <p>{{ item.answer | markdownify }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+}
+</script>
+<!-- <section class="faq">
   <div class="container">
     <h1 class="text-center">FAQ</h1>
     <div class="row">
@@ -41,4 +67,4 @@ layout: default
       </div>
     </div>
   </div>
-</section>
+</section> -->
