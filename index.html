@@ -3,12 +3,12 @@ layout: default
 ---
 
 {% include hero.html %}
-
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 <section class="about">
   <div class="container">
-    <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
-      {{ site.event.about.description | markdownify }}
+      <div class = aos-init aos-animate data-aos="fade-up">
+      {{site.event.about.description | markdownify }}
     </div>
   </div>
 </section>
@@ -35,10 +35,9 @@ layout: default
     {% endfor %}
   </div>
 </section>
-
 <script>
-var acc = document.getElementsByClassName("accordion");
-var i;
+  var acc = document.getElementsByClassName("accordion");
+  var i;
 
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
@@ -51,6 +50,10 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
 </script>
 <!-- <section class="faq">
   <div class="container">
