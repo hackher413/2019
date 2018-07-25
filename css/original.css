@@ -2,7 +2,7 @@
 * RegistrationHacks Style File
 * http://bit.ly/1ywfhq7
 */
-
+*= require animate
 /* Open Sans Google Font */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:600,700);
 
@@ -93,7 +93,7 @@ section {
 
 .hero .buttons a {
   background: #fff;
-  border: 10px solid #0F2C34;
+  border: 5px solid #0F2C34;
   border-radius: 40px;
   color: #0F2C34;
   display: inline;
@@ -107,7 +107,7 @@ section {
 
 .hero .buttons a:hover,
 .hero .buttons a:focus {
-  background-color: #0F2C34;
+  background-color: #C3BDF1;
   color: #fff;
   transition: all 0.2s ease;
 }
