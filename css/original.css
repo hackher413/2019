@@ -229,6 +229,49 @@ section {
 }
 
 /*
+ * Meet the Team
+ */
+
+.team {
+  overflow: hidden;
+  background-color: #fff;
+  margin-top: 15px;
+  padding: 30px 0;
+  position: relative;
+}
+
+.team h1 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.border{
+  display: block;
+  margin: auto;
+  width: 160px;
+  height: 3px;
+  background: ##000000;
+  margin-bottom: 40px;
+}
+.ps{
+  margin-bottom: 40px;
+}
+
+.ps a{
+  display: inline-block;
+  margin: 0 30px;
+  width: 160px;
+  height: 160px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.ps a img{
+  width: 100%;
+}
+
+/*
  * FAQ Section
  */
 
