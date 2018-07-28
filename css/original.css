@@ -51,13 +51,16 @@ section {
  * Hero Section
  */
 
-#Viz{
+/* #Viz{
     position:absolute;
-}
+} */
 
 .hero {
   min-height: 110vh;
   position:relative;
+  background-image: url("../images/honey-comb-larger.png");
+  background-repeat: no-repeat;
+  background-position: center top;
 }
 
 .hero hr {
@@ -90,6 +93,7 @@ section {
 .hero .buttons {
   margin: 40px 0;
 }
+
 
 .hero .buttons a {
   background: #fff;
