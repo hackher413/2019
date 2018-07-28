@@ -116,6 +116,7 @@ section {
   margin-right: 10px;
 }
 
+
 .hero .logo {
    position:relative;
    display: inline-block;
@@ -251,24 +252,20 @@ section {
   margin: auto;
   width: 160px;
   height: 3px;
-  background: ##000000;
+  background: #000000;
   margin-bottom: 40px;
 }
 .ps{
   margin-bottom: 40px;
 }
 
-.ps a{
+.ps img{
   display: inline-block;
   margin: 0 30px;
+  overflow: hidden;
   width: 160px;
   height: 160px;
-  overflow: hidden;
-  border-radius: 50%;
-}
-
-.ps a img{
-  width: 100%;
+  background: #C3BDF1;
 }
 
 /*
