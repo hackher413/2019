@@ -268,6 +268,54 @@ section {
   background: #C3BDF1;
 }
 
+/* Four columns side by side */
+.column {
+    float: left;
+    width: 24%;
+    margin-left: 10px;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+img .bitmoji{
+  align-content: center;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+    background: #C3BDF1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    min-width: 200px;
+}
+
+/* Some left and right padding inside the container */
+.container {
+    padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+h2 .name{
+  word-wrap: break-word;
+  font-size: 1.5em;
+}
+.position {
+    font-size: 1em;
+}
+
+
 /*
  * FAQ Section
  */
