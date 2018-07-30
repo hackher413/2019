@@ -25,14 +25,14 @@ social:
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
   title:       "HackHer413 | February 2019"
-  description: "A hackathon for women and non-binary people at UMass Amherst."
+  description: "The first all-women and non-binary student hackathon in Western Mass."
   image:       "images/5.png"
 
 # Event information.
 event:
   name:        "HackHer413"
   image:       "images/logo1.png"
-  description: "A hackathon for women and non-binary people from the Five Colleges."
+  description: "The first all-women and non-binary student hackathon in Western Mass!"
   date:        "February 2019"
   location:    "UMass Amherst"
   image:       "../images/logo1.png"
@@ -79,6 +79,9 @@ event:
     - question: "Where is the event?"
       answer: >
         The event is being hosted at UMass Amherst.
+      - question: "Why the bee?"
+      answer: >
+        Honeybees operate in colonies where all the worker bees are female--from the nurse bees to the battle/warrior bees. We thought it was a good representation of women working hard and working together to solve problems! https://en.wikipedia.org/wiki/Worker_bee.
     # - question: "What is Major League Hacking?"
     #   answer: >
     #     Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
