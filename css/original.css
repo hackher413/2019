@@ -69,9 +69,6 @@ section {
   top: -14px;
 }
 
-.hero .wrapper {
-  padding-top:;
-}
 
 .hero .wrapper h1 {
   display: inline-block;
@@ -88,6 +85,46 @@ section {
   font-size: 20px;
   font-weight: 200;
   padding-bottom: 35px;
+}
+
+#lab_social_icon_header a {
+  color: #0F2C34;
+}
+
+#lab_social_icon_header .social:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+#lab_social_icon_header .social {
+  -webkit-transform: scale(0.8);
+  /* Browser Variations: */
+
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}
+/*
+    Multicoloured Hover Variations
+*/
+
+#lab_social_icon_header #social-fb:hover {
+  color: #3B5998;
+}
+
+#lab_social_icon_header #social-tw:hover {
+  color: #4099FF;
+}
+
+#lab_social_icon_header #social-in:hover {
+  color: #cd486b;
+}
+
+#lab_social_icon_header #social-em:hover {
+  color: #D099D5;
 }
 
 .hero .buttons {
@@ -269,7 +306,7 @@ section {
   overflow: hidden;
   width: 160px;
   height: 160px;
-  background: #C3BDF1;
+  background: #fff;
 }
 
 a {
@@ -283,10 +320,7 @@ a {
     margin-left: 10px;
     margin-bottom: 16px;
     padding: 0 8px;
-}
-
-img .bitmoji{
-  align-content: center;
+    text-align: center;
 }
 
 /* Display the columns below each other instead of side by side on small screens */
@@ -299,8 +333,7 @@ img .bitmoji{
 
 /* Add some shadows to create a card effect */
 .card {
-    background: #C3BDF1;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background: #fff;
     min-width: 200px;
 }
 
@@ -315,7 +348,7 @@ img .bitmoji{
     clear: both;
     display: table;
 }
-h2 .name{
+h2.name{
   word-wrap: break-word;
   font-size: 1.5em;
 }
@@ -362,6 +395,12 @@ h2 .name{
   margin-bottom: -2px;
   margin-top: 40px;
   width: 300px;
+}
+
+p.question{
+  text-align: center;
+  font-size: 1.5em;
+
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
@@ -427,6 +466,20 @@ h2 .name{
 .footer h3 a {
   color: #fff;
 }
+
+.icon-container{
+  text-align: center;
+}
+
+.icon a{
+  padding:5px;
+  float: right;
+
+}
+.icon a:hover{
+  color: #0F2C34;
+}
+
 
 @media(max-width: 768px) {
   .hero .buttons a {
