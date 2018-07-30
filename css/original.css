@@ -164,9 +164,9 @@ section {
    background-image: url("../images/Capture.PNG");
    background-repeat:no-repeat;
    background-size: 100%;
-   margin-top: 400px;
-   width: 200px; max-width: 200px;
-   height: 200px; max-height: 200px;
+   margin-top: 500px;
+   width: 400px; max-width: 400px;
+   height: 250px; max-height: 250px;
    -webkit-transition: background 300ms ease-in 2s; /* property duration timing-function delay */
     -moz-transition: background 300ms ease-in 2s;
     -o-transition: background 300ms ease-in 2s;
