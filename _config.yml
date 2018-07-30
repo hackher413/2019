@@ -79,7 +79,7 @@ event:
     - question: "Where is the event?"
       answer: >
         The event is being hosted at UMass Amherst.
-      - question: "Why the bee?"
+    - question: "Why the bee?"
       answer: >
         Honeybees operate in colonies where all the worker bees are female--from the nurse bees to the battle/warrior bees. We thought it was a good representation of women working hard and working together to solve problems! https://en.wikipedia.org/wiki/Worker_bee.
     # - question: "What is Major League Hacking?"
