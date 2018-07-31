@@ -243,11 +243,12 @@ section {
 
 .about-section{
   position:absolute;
-  top:50%;
+  top:40%;
+  left:35%;
 }
 .about-section p {
   padding:10px;
-  width:70%;
+  width:75%;
   height:auto;
   color: #0F2C34;
   background: #EBF9F3;
