@@ -6,15 +6,7 @@ layout: default
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 <!-- About -->
-<section class="about">
-  <div class="container">
-    <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
-      <div class = aos-init aos-animate data-aos="fade-up">
-      {{site.event.about.description | markdownify }}
-    </div>
-  </div>
-</div>
-</section>
+{% include about.html %}
 
 
 <!-- Sponsors -->

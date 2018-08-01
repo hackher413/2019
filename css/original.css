@@ -305,23 +305,46 @@ body{
 /*
  * About Section
  */
-
+/*
 .about {
   border-width: 15px 0;
   background-color: #C7E3F0;
   padding: 100px 0;
   position: relative;
+}*/
+
+.about {
+  border-width: 15px 0;
+  background-color: white;
+  padding: 100px 0;
+  position: relative;
+  overflow-x:hidden: hidden;
+  white-space: nowrap;
 }
 
-.about p {
+.about-section{
+  position:absolute;
+  top:40%;
+  left:35%;
+}
+.about-section p {
+  padding:10px;
+  width:75%;
+  height:auto;
   color: #0F2C34;
+  background: #EBF9F3;
   font-weight: 600;
   font-size: 22px;
   line-height: 1.6em;
   letter-spacing: -.3px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(197,212,206,1);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(197,212,206,1);
+  box-shadow: 10px 10px 5px 0px rgba(197,212,206,1);
+  white-space: normal;
 }
 
-.about p span {
+
+.about-section p span {
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -612,3 +635,74 @@ background-size: 1800% 1800%;
     100%{background-position:0% 82%}
 }
 Rainbow background */
+
+
+.hex {
+    display: inline-block;
+    margin-left: 1px;
+    margin-bottom: -29px;
+    white-space: nowrap;
+    float:none;
+    clear:both;
+}
+
+.hex:hover {
+  cursor: pointer;
+}
+
+.hex:hover .top {
+  opacity: 0;
+  animation-name: fadeOutOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 0.25s;
+}
+
+.hex:hover .middle {
+  opacity: 0;
+  animation-name: fadeOutOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 0.25s;
+}
+
+.hex:hover .bottom {
+  opacity: 0;
+  animation-name: fadeOutOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 0.25s;
+}
+
+@keyframes fadeOutOpacity {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.hex .top {
+    width: 0;
+    border-bottom: 30px solid #C3BDF1;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+.hex .middle {
+    width: 104px;
+    height: 60px;
+    background: #C3BDF1;
+}
+.hex .bottom {
+    width: 0;
+    border-top: 30px solid #C3BDF1;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+.hex-row {
+    clear: left;
+}
+.hex-row.even {
+    margin-left: 53px;
+}
