@@ -15,8 +15,8 @@
         </div>
     </div>
     </section>
-    <button class="bubbly-button">Sponsor!</button>
-      {% for link in site.event.hero.links %}
+    <a class="bubbly-button" onclick="window.location.href='mailto:hackher413@gmail.com'">Sponsor!</a>
+      {% for link in site.event.bubbly-button.links %}
         <!-- {% if link.href %} -->
           <a href="{{ link.href }}">{{ link.text }}</a>
         <!-- {% elsif link.my_mlh %}
