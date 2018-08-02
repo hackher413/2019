@@ -29,7 +29,7 @@ body {
 }
 
 section {
-  overflow-x:hidden;
+  display: block;
 }
 
 /*
@@ -246,7 +246,7 @@ body{
    background-repeat:no-repeat;
    background-size: 100%;
    margin-top: 500px;
-   width: 400px; max-width: 400px;
+   width: 300px; max-width: 300px;
    height: 250px; max-height: 250px;
    -webkit-transition: background 300ms ease-in 2s; /* property duration timing-function delay */
     -moz-transition: background 300ms ease-in 2s;
@@ -318,14 +318,15 @@ body{
   background-color: white;
   padding: 100px 0;
   position: relative;
-  overflow-x:hidden: hidden;
   white-space: nowrap;
+  height:auto;
+  overflow:hidden;
 }
 
 .about-section{
-  position:absolute;
   top:40%;
   left:35%;
+  position:absolute;
 }
 .about-section p {
   padding:10px;
@@ -432,6 +433,11 @@ a {
     .column {
         width: 100%;
         display: block;
+    }
+    .about-section{
+      width:100%;
+      top:0;
+      left:10%;
     }
 }
 
