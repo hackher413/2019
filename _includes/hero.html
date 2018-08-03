@@ -15,7 +15,9 @@
         </div>
     </div>
     </section>
-    <a class="bubbly-button" onclick="window.location.href='mailto:hackher413@gmail.com'">Sponsor!</a>
+    <div id="wrapper">
+    <button class="btn" onclick="window.location.href='mailto:hackher413@gmail.com'"><span>Sponsor</span></button>
+    </div>
       {% for link in site.event.bubbly-button.links %}
         <!-- {% if link.href %} -->
           <a href="{{ link.href }}">{{ link.text }}</a>

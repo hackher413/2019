@@ -24,13 +24,13 @@ social:
 
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
-  title:       "HackHer413 | February 2019"
+  title:       "Hack(H)er413 | February 2019"
   description: "The first all-women and non-binary student hackathon in Western Mass."
   image:       "images/5.png"
 
 # Event information.
 event:
-  name:        "HackHer413"
+  name:        "Hack(H)er413"
   image:       "images/logo1.png"
   description: "The first all-women and non-binary student hackathon in Western Mass!"
   date:        "February 2019"
@@ -53,7 +53,7 @@ event:
 
   about:
     description: >
-      HackHer413 is a hackathon for women and nonbinary students hosted at the University of
+      Hack(H)er413 is a hackathon for women and nonbinary students hosted at the University of
       Massachusetts Amherst. Over the course of 24 hours, hackathon participants are
       encouraged to learn new skills, network with fellow students, and build something
       that they are passionate about. This student-run hackathon aims to help increase
@@ -61,7 +61,7 @@ event:
 
   # Sponsors Section
   sponsors:
-    description: Interested in sponsoring HackHer413? Send us an email at hackher413@gmail.com!
+    description: Interested in sponsoring Hack(H)er413? Send us an email at hackher413@gmail.com!
 
   # Frequently asked questions.
   faq:
@@ -81,7 +81,8 @@ event:
         The event is being hosted at UMass Amherst.
     - question: "Why the bee?"
       answer: >
-        Honeybees operate in colonies where all the worker bees are female--from the nurse bees to the battle/warrior bees. We thought it was a good representation of women working hard and working together to solve problems! https://en.wikipedia.org/wiki/Worker_bee.
+        Honeybees operate in colonies where all the worker bees are female - from the nurse bees to the battle/warrior bees. We thought it was a good representation of women working hard and working together to solve problems!
+        For more information, check out https://en.wikipedia.org/wiki/Worker_bee
     # - question: "What is Major League Hacking?"
     #   answer: >
     #     Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
@@ -95,7 +96,7 @@ event:
   # This is the message you'll receive once you've registered.
   register:
     message: >
-      Welcome to HackHer 413! You'll receive more information closer to the hackathon.
+      Welcome to Hack(H)er 413! You'll receive more information closer to the hackathon.
 
 # ----------------------------------------------------
 # -- Ignore this unless you know what you're doing. --
