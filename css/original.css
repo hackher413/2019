@@ -3,12 +3,6 @@
 * http://bit.ly/1ywfhq7
 */
 *= require animate
-/* Open Sans Google Font */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,700);
-
-
-/* Montserrat Google Font */
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 /*
  * Primary Blue: #44D5FF;
@@ -17,12 +11,11 @@
  */
 
 h1{
-  font-family: 'cambria';
+  font-family: 'Raleway', sans-serif;
 }
 
 * {
-  font-family: 'Open Sans';
-  font-weight: 600;
+  font-family: 'News Cycle', sans-serif;
 }
 
 body {
@@ -744,7 +737,7 @@ Rainbow background */
 }
 
 .hex:hover .top {
-  opacity: 0;
+  opacity: 0.5;
   animation-name: fadeOutOpacity;
   animation-iteration-count: 1;
   animation-timing-function: ease-out;
@@ -752,7 +745,7 @@ Rainbow background */
 }
 
 .hex:hover .middle {
-  opacity: 0;
+  opacity: 0.5;
   animation-name: fadeOutOpacity;
   animation-iteration-count: 1;
   animation-timing-function: ease-out;
@@ -760,7 +753,7 @@ Rainbow background */
 }
 
 .hex:hover .bottom {
-  opacity: 0;
+  opacity: 0.5;
   animation-name: fadeOutOpacity;
   animation-iteration-count: 1;
   animation-timing-function: ease-out;
