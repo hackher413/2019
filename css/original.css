@@ -48,6 +48,7 @@ section {
 /* Hexagons */
 .hexagon{
   margin-left: -50px;
+  margin-top: -50px;
   height: 525px;
   overflow: hidden;
   white-space: nowrap;
@@ -181,6 +182,9 @@ section {
   top: -14px;
 }
 
+.hero{
+  height:50vh;
+}
 
 .hero .wrapper h1 {
   display: inline-block;
@@ -318,21 +322,18 @@ section {
   margin-right: 10px;
 }
 
-
 .hero .logo {
    position:relative;
    display: inline-block;
    background-image: url("../images/Capture.PNG");
    background-repeat:no-repeat;
    background-size: 100%;
-   width: 300px; max-width: 300px;
    width: 400px; max-width: 400px;
-   height: 250px; max-height: 250px;
+   height: 200px; max-height: 200px;
    -webkit-transition: background 300ms ease-in 2s; /* property duration timing-function delay */
     -moz-transition: background 300ms ease-in 2s;
     -o-transition: background 300ms ease-in 2s;
     transition: background 300ms ease-in 2s;
-
 
     -webkit-transition-property: background;
     -webkit-transition-duration: 300ms;
@@ -355,43 +356,6 @@ section {
     transition-delay: 100ms;
 }
 
-/* .hero .logo:hover {
-    background-image: url("../images/Capture3.PNG");
-} */
-
-.logotext {
-  font-family:'IBM Plex Sans Condensed', sans-serif;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid black; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation:
-    typing 6s steps(40, end),
-    blink-caret .75s step-end infinite;
-}
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
-}
-/*
- * About Section
- */
-/*
-.about {
-  border-width: 15px 0;
-  background-color: #C7E3F0;
-  padding: 100px 0;
-  position: relative;
-}*/
 
 .about {
   border-width: 15px 0;
@@ -407,11 +371,10 @@ section {
   top:40%;
   left:35%;
   position:absolute;
-}
-.about-section {
   padding:10px;
-  width:75%;
+  width:50%;
   height:auto;
+  word-wrap: break-word;
   color: #0F2C34;
   background: #EBF9F3;
   font-weight: 600;
@@ -423,7 +386,6 @@ section {
   box-shadow: 10px 10px 5px 0px rgba(197,212,206,1);
   white-space: normal;
 }
-
 
 .about-section p span {
   font-weight: 700;
