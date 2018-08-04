@@ -53,18 +53,11 @@ event:
 
   about:
     description: >
-<<<<<<< HEAD
       HackHer413 is a hackathon for women and nonbinary students hosted at the 
       University of Massachusetts Amherst. Over the course of 24 hours, 
       hackathon participants are encouraged to learn new skills, network, and 
       build something that they are passionate about. This student-run hackathon aims 
       to help increase diversity in the tech industry. We hope you can join us!
-=======
-      HackHer413 is a hackathon for women and nonbinary students hosted at the University of
-      Massachusetts Amherst. Over the course of 24 hours, hackathon participants are encouraged to learn new skills,
-      network with fellow students, and build something that they are passionate about. This student-run hackathon
-      aims to help increase diversity in the tech industry. We hope you can join us!
->>>>>>> a34b8ada874bb99d9ad447ac02a4577c242ee868
 
   # Sponsors Section
   sponsors:
