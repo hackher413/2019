@@ -368,7 +368,8 @@ section {
    background-image: url("../images/Capture.PNG");
    background-repeat:no-repeat;
    background-size: 100%;
-   width: 400px; max-width: 400px;
+   width: 40%; max-width: 400px;
+   min-width:300px;
    height: 200px; max-height: 200px;
    -webkit-transition: background 300ms ease-in 2s; /* property duration timing-function delay */
     -moz-transition: background 300ms ease-in 2s;
@@ -508,18 +509,6 @@ a {
     text-align: center;
 }
 
-/* Display the columns below each other instead of side by side on small screens */
-@media screen and (max-width: 650px) {
-    .column {
-        width: 100%;
-        display: block;
-    }
-    .about-section{
-      width:100%;
-      top:0;
-      left:10%;
-    }
-}
 
 /* Add some shadows to create a card effect */
 .card {
@@ -671,23 +660,7 @@ p.question{
 }
 
 
-@media(max-width: 768px) {
-  .hero .buttons a {
-    border-width: 8px;
-    display: block;
-    font-size: 20px;
-    margin: 5px;
-  }
 
-  .hero img {
-    width: 250px;
-  }
-
-  .hero hr {
-    border-top-width: 8px;
-    top: -8px;
-  }
-}
 
 /*
 .rainbow {
@@ -857,11 +830,10 @@ Rainbow background */
 
 .gallery-cell img {
   display: block;
-  height:200px;
+  height:auto;
   /* set min-width,
      allow images to determine cell width */
-  min-width: 200px;
-  max-width: 100%;
+  width:250px;
   /* vertically center */
 }
 
@@ -885,4 +857,58 @@ Rainbow background */
 /* icon color */
 .flickity-button-icon {
   fill: #EBF9F3 !important;
+}
+
+
+
+
+/* Changes on Phones */
+@media screen and (max-width: 560px) {
+
+    .logo{
+      width:300px;
+      height:auto;
+    }
+
+    .hero{
+      height:100%;
+    }
+    .column {
+        width: 100%;
+        display: block;
+    }
+
+    .about {
+      white-space: nowrap;
+      height:auto;
+      overflow:hidden;
+    }
+
+    .about-section{
+      width:90vw;
+      height:auto;
+      left:5%;
+      top:40%;
+      position:absolute;
+    }
+
+  .bee-gallery .flickity-page-dots{
+      display:none !important;
+    }
+
+  .hero .buttons a {
+    border-width: 8px;
+    display: block;
+    font-size: 20px;
+    margin: 5px;
+  }
+
+  .hero img {
+    width: 250px;
+  }
+
+  .hero hr {
+    border-top-width: 8px;
+    top: -8px;
+  }
 }

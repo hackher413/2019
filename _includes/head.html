@@ -8,6 +8,10 @@
   <script src="https://d3js.org/d3-random.v1.min.js"></script>
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+  <!-- Flicky Carousel -->
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.event.name }}{% endif %}</title>
@@ -46,8 +50,4 @@
   <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="icon"      href="{{ '/images/purple-bee.png' | prepend: site.baseurl | prepend: site.url }}">
 
-  <!-- Flicky Carousel -->
-  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-  
 </head>
