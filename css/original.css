@@ -14,6 +14,10 @@ h1{
   font-family: 'Raleway', sans-serif;
 }
 
+h1.text-center{
+  font-family: 'Raleway', sans-serif;
+}
+
 * {
   font-family: 'News Cycle', sans-serif;
 }
@@ -270,6 +274,45 @@ section {
     border-left: 52px solid transparent;
     border-right: 52px solid transparent;
 }
+
+/* Icon section */
+section.icons{
+  padding-top: 50px;
+}
+
+.icon-column {
+    float: left;
+    text-align: center;
+    align-content:  center;
+    list-style-position: inside;
+    width: 33.33%;
+    padding: 5px;
+}
+
+h2.icon{
+  text-align: center;
+}
+
+/* Clear floats after the columns */
+.icon-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+img.icon{
+  width: 100%;
+  max-width: 200px;
+  max-height: 200px;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .icon-column {
+        width: 100%;
+    }
+}
+
 /*
  * Sponsors Section
  */
