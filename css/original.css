@@ -45,208 +45,6 @@ section {
  */
 
 
-/* Hexagons */
-.hexagon{
-  margin-left: -50px;
-  margin-top: -50px;
-  height: 525px;
-  overflow: hidden;
-  white-space: nowrap;
-}
-
-.hexagon-top{
-  top:0;
-  margin-top:-50px;
-  height:200px;
-  overflow: hidden;
-  white-space: nowrap;
-  position:absolute;
-}
-
-.hexagon-top .hex{
-  margin-left: -4px;
-}
-.about .hexagon-top .hex .middle {
-    width: 104px;
-    height: 60px;
-    background: white;
-}
-.about .hexagon-top .hex .bottom {
-    width: 0;
-    border-top: 30px solid white;
-    border-left: 52px solid transparent;
-    border-right: 52px solid transparent;
-}
-.about .hexagon-top .hex .top {
-    width: 0;
-    border-bottom: 30px solid white;
-    border-left: 52px solid transparent;
-    border-right: 52px solid transparent;
-}
-
-
-.hex {
-    float:left;
-    margin-left: 3px;
-    margin-bottom: -26px;
-}
-
-.row-1-animate{
-  opacity:0;
-    -moz-animation: fadein 3s; /* Firefox */
-    -webkit-animation: fadein 3s; /* Safari and Chrome */
-    -o-animation: fadein 3s; /* Opera */
-    animation-fill-mode: forwards;
-}
-.row-2-animate{
-  opacity:0;
-    -moz-animation: fadein 3s; /* Firefox */
-    -webkit-animation: fadein 3s; /* Safari and Chrome */
-    -o-animation: fadein 3s; /* Opera */
-    animation-delay: 0.5s;
-    animation-fill-mode: forwards;
-}
-.row-3-animate{
-  opacity:0;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 2s; /* Safari and Chrome */
-    -o-animation: fadein 2s; /* Opera */
-    animation-delay: 1s;
-    animation-fill-mode: forwards;
-}
-.row-4-animate{
-  opacity:0;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 2s; /* Safari and Chrome */
-    -o-animation: fadein 2s; /* Opera */
-    animation-delay: 1.5s;
-    animation-fill-mode: forwards;
-}
-.row-5-animate{
-  opacity:0;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 2s; /* Safari and Chrome */
-    -o-animation: fadein 2s; /* Opera */
-    animation-delay: 2s;
-    animation-fill-mode: forwards;
-}
-
-.hex .top1 {
-    width: 0;
-    border-bottom: 30px solid #CA7C83;
-    border-left: 52px solid transparent;
-    border-right: 52px solid transparent;
-}
-.hex .middle1 {
-    width: 104px;
-    height: 60px;
-    background: #CA7C83;
-}
-.hex .bottom1 {
-    width: 0;
-    border-top: 30px solid #CA7C83;
-    border-left: 52px solid transparent;
-    border-right: 52px solid transparent;
-}
-.hex .top2 {
-    width: 0;
-    border-bottom: 30px solid #D099D5;
-    border-left: 52px solid transparent;
-    border-right: 52px solid transparent;
-}
-.hex .middle2 {
-    width: 104px;
-    height: 60px;
-    background: #D099D5;
-}
-.hex .bottom2 {
-    width: 0;
-    border-top: 30px solid #D099D5;
-    border-left: 52px solid transparent;
-    border-right: 52px solid transparent;
-}
-.hex .top3 {
-    width: 0;
-    border-bottom: 30px solid #C3BDF1;
-    border-left: 52px solid transparent;
-    border-right: 52px solid transparent;
-}
-.hex .middle3 {
-    width: 104px;
-    height: 60px;
-    background: #C3BDF1;
-}
-.hex .bottom3 {
-    width: 0;
-    border-top: 30px solid #C3BDF1;
-    border-left: 52px solid transparent;
-    border-right: 52px solid transparent;
-}
-.hex .top4 {
-    width: 0;
-    border-bottom: 30px solid #C7E3F0;
-    border-left: 52px solid transparent;
-    border-right: 52px solid transparent;
-}
-.hex .middle4 {
-    width: 104px;
-    height: 60px;
-    background: #C7E3F0;
-}
-.hex .bottom4 {
-    width: 0;
-    border-top: 30px solid #C7E3F0;
-    border-left: 52px solid transparent;
-    border-right: 52px solid transparent;
-}
-.hex .top5 {
-    width: 0;
-    border-bottom: 30px solid #EBF9F3;
-    border-left: 52px solid transparent;
-    border-right: 52px solid transparent;
-}
-.hex .middle5 {
-    width: 104px;
-    height: 60px;
-    background: #EBF9F3;
-}
-.hex .bottom5 {
-    width: 0;
-    border-top: 30px solid #EBF9F3;
-    border-left: 52px solid transparent;
-    border-right: 52px solid transparent;
-}
-.hex-row {
-    clear: left;
-}
-.hex-row.even {
-    margin-left: 53px;
-}
-
-.hex:hover .top1, .hex:hover .top2, .hex:hover .top3, .hex:hover .top4, .hex:hover .top5 {
-  opacity: 0.5;
-  animation-name: fadeOutOpacity;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-out;
-  animation-duration: 0.25s;
-}
-
-.hex:hover .middle1, .hex:hover .middle2, .hex:hover .middle3, .hex:hover .middle4, .hex:hover .middle5 {
-  opacity: 0.5;
-  animation-name: fadeOutOpacity;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-out;
-  animation-duration: 0.25s;
-}
-
-.hex:hover .bottom1, .hex:hover .bottom2, .hex:hover .bottom3, .hex:hover .bottom4, .hex:hover .bottom5 {
-  opacity: 0.5;
-  animation-name: fadeOutOpacity;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-out;
-  animation-duration: 0.25s;
-}
-
 .hero hr {
   margin: 0;
   position: relative;
@@ -254,7 +52,7 @@ section {
 }
 
 .hero{
-  height:70vh;
+  height:100vh;
 }
 
 .hero .wrapper h1 {
@@ -393,41 +191,32 @@ section {
   margin-right: 10px;
 }
 
+.hero{
+  margin:-10%;
+}
+
 .hero .logo {
    position:relative;
    display: inline-block;
-   background-image: url("../images/Capture.PNG");
-   background-repeat:no-repeat;
-   background-size: 100%;
+   background:rgba(255,255,255,0.7);
    width: 40%; max-width: 400px;
    min-width:300px;
+   margin-top:-40%;
    height: 200px; max-height: 200px;
-   -webkit-transition: background 300ms ease-in 2s; /* property duration timing-function delay */
-    -moz-transition: background 300ms ease-in 2s;
-    -o-transition: background 300ms ease-in 2s;
-    transition: background 300ms ease-in 2s;
-
-    -webkit-transition-property: background;
-    -webkit-transition-duration: 300ms;
-    -webkit-transition-timing-function: ease-in;
-    -webkit-transition-delay: 100ms;
-
-    -moz-transition-property: background;
-    -moz-transition-duration: 300ms;
-    -moz-transition-timing-function: ease-in;
-    -moz-transition-delay: 100ms;
-
-    -o-transition-property: background;
-    -o-transition-duration: 300ms;
-    -o-transition-timing-function: ease-in;
-    -o-transition-delay: 100ms;
-
-    transition-property: background;
-    transition-duration: 300ms;
-    transition-timing-function: ease-in;
-    transition-delay: 100ms;
 }
 
+.hero .logo img{
+  width:100%;
+}
+
+.hero h2{
+  padding-top:30px;
+}
+
+.hero h3{
+  padding-bottom:0px;
+  margin-bottom: 0px;
+}
 
 .about {
   border-width: 15px 0;
@@ -708,18 +497,244 @@ p.question{
 }
 
 
+/* Hexagons */
+.hexagon{
+  margin-left: -50px;
+  margin-top: -50px;
+  height: 525px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.hexagon-top{
+  top:0;
+  margin-top:-50px;
+  height:500px;
+  overflow: hidden;
+  white-space: nowrap;
+  position:absolute;
+}
+
+.hexagon-top .firstrow .hex{
+  margin-left: -4px;
+}
+
+.hexagon-top .near-border{
+  margin-left: 40px;
+}
+
+.hexagon-top .even-near-border{
+  margin-left: -15px;
+}
 
 
 
+.hexagon-bottom{
+  bottom:0;
+  position:absolute;
+  margin-bottom:-150px;
+  height:200px;
+  overflow: hidden;
+  white-space: nowrap;
+  position:absolute;
+}
+
+.hexagon-bottom .hex{
+  margin-left: -4px;
+}
+
+.hexagon .hex .empty {
+    width: 104px;
+    height: 60px;
+    background: transparent;
+}
+
+.about .hexagon-top .hex .empty {
+    width: 104px;
+    height: 60px;
+    background: transparent;
+}
+
+.about .hexagon-top .firstrow .hex .middle {
+    width: 108px;
+    height: 60px;
+    background: white;
+}
+
+.about .hexagon-top .hex .middle {
+    width: 104px;
+    height: 60px;
+    background: white;
+}
+
+.about .hexagon-top .hex .bottom {
+    width: 0;
+    border-top: 30px solid white;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+.about .hexagon-top .hex .top {
+    width: 0;
+    border-bottom: 30px solid white;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+
+/* HEXAGON CSS*/
+.hex {
+    float:left;
+    margin-left: 3px;
+    margin-bottom: -26px;
+}
+
+.hex .top {
+    width: 0;
+    border-bottom: 30px solid #C3BDF1;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+.hex .middle {
+    width: 104px;
+    height: 60px;
+    background: #C3BDF1;
+}
+.hex .bottom {
+    width: 0;
+    border-top: 30px solid #C3BDF1;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+.hex-row {
+    clear: left;
+}
+.hex-row.even {
+    margin-left: 53px;
+}
+
+.hex .top1 {
+    width: 0;
+    border-bottom: 30px solid #CA7C83;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+.hex .middle1 {
+    width: 104px;
+    height: 60px;
+    background: #CA7C83;
+}
+.hex .bottom1 {
+    width: 0;
+    border-top: 30px solid #CA7C83;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+.hex .top2 {
+    width: 0;
+    border-bottom: 30px solid #D099D5;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+.hex .middle2 {
+    width: 104px;
+    height: 60px;
+    background: #D099D5;
+}
+.hex .bottom2 {
+    width: 0;
+    border-top: 30px solid #D099D5;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+.hex .top3 {
+    width: 0;
+    border-bottom: 30px solid #C3BDF1;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+.hex .middle3 {
+    width: 104px;
+    height: 60px;
+    background: #C3BDF1;
+}
+.hex .bottom3 {
+    width: 0;
+    border-top: 30px solid #C3BDF1;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+.hex .top4 {
+    width: 0;
+    border-bottom: 30px solid #C7E3F0;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+.hex .middle4 {
+    width: 104px;
+    height: 60px;
+    background: #C7E3F0;
+}
+.hex .bottom4 {
+    width: 0;
+    border-top: 30px solid #C7E3F0;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+.hex .top5 {
+    width: 0;
+    border-bottom: 30px solid #EBF9F3;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+.hex .middle5 {
+    width: 104px;
+    height: 60px;
+    background: #EBF9F3;
+}
+.hex .bottom5 {
+    width: 0;
+    border-top: 30px solid #EBF9F3;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+.hex-row {
+    clear: left;
+}
+
+.hex-animate:hover .top1, .hex:hover .top2, .hex:hover .top3, .hex:hover .top4, .hex:hover .top5 {
+  opacity: 0.5;
+  animation-name: fadeOutOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 0.25s;
+}
+
+.hex-animate:hover .middle1, .hex:hover .middle2, .hex:hover .middle3, .hex:hover .middle4, .hex:hover .middle5 {
+  opacity: 0.5;
+  animation-name: fadeOutOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 0.25s;
+}
+
+.hex-animate:hover .bottom1, .hex:hover .bottom2, .hex:hover .bottom3, .hex:hover .bottom4, .hex:hover .bottom5 {
+  opacity: 0.5;
+  animation-name: fadeOutOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 0.25s;
+}
+
+
+/* RAINBOW BACKGROUND*/
 .rainbow {
 
-background: linear-gradient(130deg, #C7E3F0, #CA7C83, #D099D5, #C3BDF1);
+background: linear-gradient(130deg, #EBF9F3, #CA7C83, #D099D5,  #C7E3F0, #C3BDF1);
 background-size: 1800% 1800%;
 
--webkit-animation: rainbow 18s ease infinite;
--z-animation: rainbow 18s ease infinite;
--o-animation: rainbow 18s ease infinite;
-  animation: rainbow 18s ease infinite;}
+-webkit-animation: rainbow 9s ease infinite;
+-z-animation: rainbow 9s ease infinite;
+-o-animation: rainbow 9s ease infinite;
+  animation: rainbow 9s ease infinite;}
 
 @-webkit-keyframes rainbow {
     0%{background-position:0% 82%}
@@ -752,11 +767,52 @@ background-size: 1800% 1800%;
     clear:both;
 }
 
-.hex:hover {
+
+.row-1-animate{
+  opacity:0;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
+    animation-fill-mode: forwards;
+}
+.row-2-animate{
+  opacity:0;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+.row-3-animate{
+  opacity:0;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+.row-4-animate{
+  opacity:0;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}
+.row-5-animate{
+  opacity:0;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+.hex-animate:hover {
   cursor: pointer;
 }
 
-.hex:hover .top {
+.hex-animate:hover .top {
   opacity: 0.5;
   animation-name: fadeOutOpacity;
   animation-iteration-count: 1;
@@ -764,7 +820,7 @@ background-size: 1800% 1800%;
   animation-duration: 0.25s;
 }
 
-.hex:hover .middle {
+.hex-animate:hover .middle {
   opacity: 0.5;
   animation-name: fadeOutOpacity;
   animation-iteration-count: 1;
@@ -772,7 +828,7 @@ background-size: 1800% 1800%;
   animation-duration: 0.25s;
 }
 
-.hex:hover .bottom {
+.hex-animate:hover .bottom {
   opacity: 0.5;
   animation-name: fadeOutOpacity;
   animation-iteration-count: 1;
@@ -789,9 +845,7 @@ background-size: 1800% 1800%;
   }
 }
 
-
 /*Fade in Hexagon Affect*/
-
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
@@ -820,33 +874,6 @@ background-size: 1800% 1800%;
     from { opacity: 0; }
     to   { opacity: 1; }
 }
-
-
-.hex .top {
-    width: 0;
-    border-bottom: 30px solid #C3BDF1;
-    border-left: 52px solid transparent;
-    border-right: 52px solid transparent;
-}
-.hex .middle {
-    width: 104px;
-    height: 60px;
-    background: #C3BDF1;
-}
-.hex .bottom {
-    width: 0;
-    border-top: 30px solid #C3BDF1;
-    border-left: 52px solid transparent;
-    border-right: 52px solid transparent;
-}
-.hex-row {
-    clear: left;
-}
-.hex-row.even {
-    margin-left: 53px;
-}
-
-
 
 
 /* CAROUSEL CSS */
