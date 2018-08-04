@@ -53,10 +53,13 @@ event:
 
   about:
     description: >
-      Hack(H)er413 is a hackathon for women and nonbinary students hosted at the University of
-      Massachusetts Amherst. Over the course of 24 hours, hackathon participants are
-      encouraged to learn new skills, network with fellow students, and build something
-      that they are passionate about. This student-run hackathon aims to help increase
+      - Hack(H)er413 is a hackathon for women and nonbinary students hosted at the University of
+      Massachusetts Amherst. 
+      - Over the course of 24 hours, hackathon participants are
+      encouraged to learn new skills, 
+      - network with fellow students, and build something
+      that they are passionate about. T
+      - his student-run hackathon aims to help increase
       diversity in the tech industry. We hope you can join us!
 
   # Sponsors Section

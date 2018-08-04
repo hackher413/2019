@@ -131,7 +131,10 @@
       </div>
         <div class="about-section">
           <div class = aos-init aos-animate data-aos="fade-in">
-                {{site.event.about.description | markdownify }}
+            <div class = "about-section-child">
+              <h1 class="text-center">FAQ</h1>
+              {{site.event.about.description | markdownify }}
+            </div>
         </div>
       </div>
     </div>
