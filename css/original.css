@@ -485,6 +485,36 @@ section {
     border-left: 52px solid transparent;
     border-right: 52px solid transparent;
 }
+
+/* Icon section */
+section.icons{
+  padding-top: 50px;
+}
+
+.icon-column {
+    float: left;
+    text-align: center;
+    list-style-position: inside;
+    width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.icon-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+img.icon{
+  width: 200px;
+  height: 200px;
+}
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
 /*
  * Sponsors Section
  */
