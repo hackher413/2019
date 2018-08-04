@@ -444,7 +444,6 @@ section {
 }
 
 .sponsors h1 {
-  font-family: 'Montserrat';
   font-weight: 700;
   margin: 20px 0;
 }
@@ -470,7 +469,6 @@ section {
 }
 
 .team h1 {
-  font-family: 'Montserrat';
   font-weight: 700;
   margin: 20px 0;
 }
@@ -826,4 +824,65 @@ Rainbow background */
 }
 .hex-row.even {
     margin-left: 53px;
+}
+
+
+
+
+/* CAROUSEL CSS */
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.gallery-cell {
+  padding-right: 6%;
+  padding-left: 6%;
+  opacity: 0.15;
+  transition: opacity 0.3s ease-in-out;
+  z-index: -1;
+}
+
+.gallery-cell.is-selected {
+  opacity: 1;
+  z-index: 0
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+}
+
+.gallery-cell img {
+  display: block;
+  height:200px;
+  /* set min-width,
+     allow images to determine cell width */
+  min-width: 200px;
+  max-width: 100%;
+  /* vertically center */
+}
+
+.bee-gallery .container {
+  margin-bottom: 15%;
+  margin-top: 15%;
+}
+
+.flickity-button {
+  background: #C7E3F0 !important;
+}
+.flickity-button:hover {
+  background: #D099D5 !important;
+}
+
+.flickity-prev-next-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px !important;
+}
+/* icon color */
+.flickity-button-icon {
+  fill: #EBF9F3 !important;
 }
