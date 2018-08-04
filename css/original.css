@@ -3,12 +3,6 @@
 * http://bit.ly/1ywfhq7
 */
 *= require animate
-/* Open Sans Google Font */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,700);
-
-
-/* Montserrat Google Font */
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 /*
  * Primary Blue: #44D5FF;
@@ -17,12 +11,11 @@
  */
 
 h1{
-  font-family: 'cambria';
+  font-family: 'Raleway', sans-serif;
 }
 
 * {
-  font-family: 'Open Sans';
-  font-weight: 600;
+  font-family: 'News Cycle', sans-serif;
 }
 
 body {
@@ -51,13 +44,17 @@ section {
  * Hero Section
  */
 
-/* #Viz{
-    position:absolute;
-} */
 
 /* Hexagons */
+.hexagon{
+  margin-left: -50px;
+  height: 525px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
 .hex {
-    float: left;
+    float:left;
     margin-left: 3px;
     margin-bottom: -26px;
 
@@ -177,96 +174,6 @@ section {
   animation-timing-function: ease-out;
   animation-duration: 0.25s;
 }
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .super-small{
-    display: inline-block;
-  }
-  .small{
-    display: none;
-  }
-  .tablets{
-    display: none;
-  }
-  .laptop{
-    display: none;
-  }
-  .desktop{
-    display: none;
-  }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  .super-small{
-    display: inline-block;
-  }
-  .small{
-    display: inline-block;
-  }
-  .tablets{
-    display: none;
-  }
-  .laptop{
-    display: none;
-  }
-  .desktop{
-    display: none;
-  }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .super-small{
-    display: inline-block;
-  }
-  .small{
-    display: inline-block;
-  }
-  .tablets{
-    display: inline-block;
-  }
-  .laptop{
-    display: none;
-  }
-  .desktop{
-    display: none;
-  }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  .super-small{
-    display: inline-block;
-  }
-  .small{
-    display: inline-block;
-  }
-  .tablets{
-    display: inline-block;
-  }
-  .laptop{
-    display: inline-block;
-  }
-  .desktop{
-    display: none;
-  }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
-}
-
-
-/* .hero {
-  min-height: 110vh;
-  position:relative;
-  background-image: url("../images/honey-comb-larger.png");
-  background-repeat: no-repeat;
-  background-position: center top;
-} */
 
 .hero hr {
   margin: 0;
@@ -418,6 +325,7 @@ section {
    background-image: url("../images/Capture.PNG");
    background-repeat:no-repeat;
    background-size: 100%;
+   width: 300px; max-width: 300px;
    width: 400px; max-width: 400px;
    height: 250px; max-height: 250px;
    -webkit-transition: background 300ms ease-in 2s; /* property duration timing-function delay */
@@ -829,7 +737,7 @@ Rainbow background */
 }
 
 .hex:hover .top {
-  opacity: 0;
+  opacity: 0.5;
   animation-name: fadeOutOpacity;
   animation-iteration-count: 1;
   animation-timing-function: ease-out;
@@ -837,7 +745,7 @@ Rainbow background */
 }
 
 .hex:hover .middle {
-  opacity: 0;
+  opacity: 0.5;
   animation-name: fadeOutOpacity;
   animation-iteration-count: 1;
   animation-timing-function: ease-out;
@@ -845,7 +753,7 @@ Rainbow background */
 }
 
 .hex:hover .bottom {
-  opacity: 0;
+  opacity: 0.5;
   animation-name: fadeOutOpacity;
   animation-iteration-count: 1;
   animation-timing-function: ease-out;
