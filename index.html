@@ -135,7 +135,9 @@ layout: default
   <div class="container">
     <h1 class="text-center" style="font-family: 'Raleway', sans-serif;">FAQ</h1>
     {% for item in site.event.faq %}
-    <button class="accordion">{{ item.question }}</button>
+    <button class="accordion">
+    {{ item.question }}
+    </button>
      <div class="panel">
       <p>{{ item.answer | markdownify }}</p>
     </div>
