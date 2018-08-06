@@ -1,21 +1,24 @@
 <section class="hero" >
   <div class="wrapper text-center">
     <div class="honey-comb"></div>
-    <div class="logo"><img src="images/logo.png"/></div>
-    <h2 rel="description">{{ site.event.description }}</h2>
-    <h3 rel="location">{{ site.event.date }} &mdash; {{ site.event.location }}</h3>
-    <section id="lab_social_icon_header">
-    <div class="icon-container">
+    <div class="main-page-description">
+      <div class="logo"><img src="images/logo.png"/></div>
+      <h2 rel="description">{{ site.event.description }}</h2>
+      <h3 rel="location">{{ site.event.date }} &mdash; {{ site.event.location }}</h3>
+      <section id="lab_social_icon_header">
+      <div class="icon-container">
             <div class="text-center center-block">
                     <a href="https://www.facebook.com"><i id="social-fb" class="fab fa-facebook-square fa-3x social"></i></a>
     	            <a href="https://twitter.com"><i id="social-tw" class="fab fa-twitter fa-3x social"></i></a>
     	            <a href="https://instagram.com"><i id="social-in" class="fab fa-instagram fa-3x social"></i></a>
               <a href="mailto:hackher413@gmail.com"><i id="social-em" class="fas fa-envelope fa-3x social"></i></a>
         </div>
+      </div>
+      <div id="wrapper">
+    <button class="btn" onclick="window.location.href='mailto:hackher413@gmail.com'"><span>Sponsor</span></button>
     </div>
     </section>
-    <div id="wrapper">
-    <button class="btn" onclick="window.location.href='mailto:hackher413@gmail.com'"><span>Sponsor</span></button>
+
     </div>
       {% for link in site.event.bubbly-button.links %}
         <!-- {% if link.href %} -->

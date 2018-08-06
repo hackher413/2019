@@ -52,12 +52,37 @@ section {
 .hero hr {
   margin: 0;
   position: relative;
-  top: -14px;
 }
 
 .hero{
   height:100vh;
 }
+
+.hero .logo {
+  display: inline-block;
+}
+
+.main-page-description{
+  transform: translate(-70%, -100%);
+  width:40%;
+  display: inline-block;
+}
+
+.hero .logo img{
+  width: 80%; max-width: 600px;
+  min-width: 300px;
+}
+
+.hero h2{
+  padding-top:20px;
+  padding:10px;
+}
+
+.hero h3{
+  padding-bottom:0px;
+  margin-bottom: 0px;
+}
+
 
 .hero .wrapper h1 {
   display: inline-block;
@@ -193,33 +218,6 @@ section {
 
 .hero .buttons a:not(:last-child) {
   margin-right: 10px;
-}
-
-.hero{
-  margin:-10%;
-}
-
-.hero .logo {
-   position:relative;
-   display: inline-block;
-   background:rgba(255,255,255,0.7);
-   width: 40%; max-width: 400px;
-   min-width:300px;
-   margin-top:-40%;
-   height: 200px; max-height: 200px;
-}
-
-.hero .logo img{
-  width:100%;
-}
-
-.hero h2{
-  padding-top:30px;
-}
-
-.hero h3{
-  padding-bottom:0px;
-  margin-bottom: 0px;
 }
 
 .about {
@@ -542,13 +540,19 @@ p.question{
 
 /* Hexagons */
 .hexagon{
-  margin-left: -50px;
-  margin-top: -50px;
-  height: 525px;
+  margin-top:-4%;
+  margin-left:-5%;
+  height:105vh;
+  width:105%;
+  float:left;
+  display:block;
   overflow: hidden;
   white-space: nowrap;
 }
 
+.hexagon .hex{
+  opacity:1;
+}
 .hexagon-top{
   top:0;
   margin-top:-50px;
@@ -743,28 +747,47 @@ p.question{
     clear: left;
 }
 
-.hex-animate:hover .top1, .hex:hover .top2, .hex:hover .top3, .hex:hover .top4, .hex:hover .top5 {
-  opacity: 0.5;
-  animation-name: fadeOutOpacity;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-out;
-  animation-duration: 0.25s;
+.hex .top1, .hex .top2, .hex .top3, .hex .top4, .hex .top5 {
+    -moz-animation: fadein 4s; /* Firefox */
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+    -o-animation: fadein 4s; /* Opera */
+    animation-fill-mode: forwards;
 }
 
-.hex-animate:hover .middle1, .hex:hover .middle2, .hex:hover .middle3, .hex:hover .middle4, .hex:hover .middle5 {
-  opacity: 0.5;
-  animation-name: fadeOutOpacity;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-out;
-  animation-duration: 0.25s;
+.hex .middle1, .hex .middle2, .hex .middle3, .hex .middle4, .hex .middle5 {
+    -moz-animation: fadein 4s; /* Firefox */
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+    -o-animation: fadein 4s; /* Opera */
+    animation-fill-mode: forwards;
 }
 
-.hex-animate:hover .bottom1, .hex:hover .bottom2, .hex:hover .bottom3, .hex:hover .bottom4, .hex:hover .bottom5 {
-  opacity: 0.5;
-  animation-name: fadeOutOpacity;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-out;
-  animation-duration: 0.25s;
+.hex .bottom1, .hex .bottom2, .hex .bottom3, .hex .bottom4, .hex .bottom5 {
+    -moz-animation: fadein 4s; /* Firefox */
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+    -o-animation: fadein 4s; /* Opera */
+    animation-fill-mode: forwards;
+}
+
+
+.hex:hover .top1, .hex:hover .top2, .hex:hover .top3, .hex:hover .top4, .hex:hover .top5 {
+    -moz-animation: fadeinhover 4s; /* Firefox */
+    -webkit-animation: fadeinhover 4s; /* Safari and Chrome */
+    -o-animation: fadeinhover 4s; /* Opera */
+    animation-fill-mode: forwards;
+}
+
+.hex:hover .middle1, .hex:hover .middle2, .hex:hover .middle3, .hex:hover .middle4, .hex:hover .middle5 {
+    -moz-animation: fadeinhover 4s; /* Firefox */
+    -webkit-animation: fadeinhover 4s; /* Safari and Chrome */
+    -o-animation: fadeinhover 4s; /* Opera */
+    animation-fill-mode: forwards;
+}
+
+.hex:hover .bottom1, .hex:hover .bottom2, .hex:hover .bottom3, .hex:hover .bottom4, .hex:hover .bottom5 {
+    -moz-animation: fadeinhover 4s; /* Firefox */
+    -webkit-animation: fadeinhover 4s; /* Safari and Chrome */
+    -o-animation: fadeinhover 4s; /* Opera */
+    animation-fill-mode: forwards;
 }
 
 
@@ -813,40 +836,40 @@ background-size: 1800% 1800%;
 
 .row-1-animate{
   opacity:0;
-    -moz-animation: fadein 3s; /* Firefox */
-    -webkit-animation: fadein 3s; /* Safari and Chrome */
-    -o-animation: fadein 3s; /* Opera */
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
     animation-fill-mode: forwards;
 }
 .row-2-animate{
   opacity:0;
-    -moz-animation: fadein 3s; /* Firefox */
-    -webkit-animation: fadein 3s; /* Safari and Chrome */
-    -o-animation: fadein 3s; /* Opera */
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
     animation-delay: 0.5s;
     animation-fill-mode: forwards;
 }
 .row-3-animate{
   opacity:0;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 2s; /* Safari and Chrome */
-    -o-animation: fadein 2s; /* Opera */
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
     animation-delay: 1s;
     animation-fill-mode: forwards;
 }
 .row-4-animate{
   opacity:0;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 2s; /* Safari and Chrome */
-    -o-animation: fadein 2s; /* Opera */
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
     animation-delay: 1.5s;
     animation-fill-mode: forwards;
 }
 .row-5-animate{
   opacity:0;
-    -moz-animation: fadein 2s; /* Firefox */
-    -webkit-animation: fadein 2s; /* Safari and Chrome */
-    -o-animation: fadein 2s; /* Opera */
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
     animation-delay: 2s;
     animation-fill-mode: forwards;
 }
@@ -855,37 +878,23 @@ background-size: 1800% 1800%;
   cursor: pointer;
 }
 
-.hex-animate:hover .top {
-  opacity: 0.5;
-  animation-name: fadeOutOpacity;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-out;
-  animation-duration: 0.25s;
+@-webkit-keyframes fadeinhover {
+  0% {opacity: 1} 
+  100% {opacity:0}
 }
 
-.hex-animate:hover .middle {
-  opacity: 0.5;
-  animation-name: fadeOutOpacity;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-out;
-  animation-duration: 0.25s;
+@-moz-keyframes fadeinhover{
+  0% {opacity: 1} 
+  100% {opacity:0}  
 }
 
-.hex-animate:hover .bottom {
-  opacity: 0.5;
-  animation-name: fadeOutOpacity;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-out;
-  animation-duration: 0.25s;
-}
-
-@keyframes fadeOutOpacity {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0.5;
-  }
+@keyframes fadeinhover {
+  0% {opacity: 1} 
+  100%{opacity: 0}
+    }
+@-o-keyframes fadeinhover {
+  0% {opacity: 1} 
+  100%{opacity: 0}
 }
 
 /*Fade in Hexagon Affect*/
@@ -980,11 +989,14 @@ background-size: 1800% 1800%;
 
 
 /* Changes on Phones */
-@media screen and (max-width: 560px) {
-
+@media screen and (max-width: 780px) {
+    .main-page-description{
+      width:100%;
+      transform: translate(0%, -90%);
+    }
     .logo{
       width:300px;
-      height:auto;
+      height:50%;
     }
 
     .hero{
