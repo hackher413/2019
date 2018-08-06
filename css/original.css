@@ -289,6 +289,7 @@ section.icons{
 
 h2.icon{
   text-align: center;
+  padding-left: 50px;
 }
 
 /* Clear floats after the columns */
@@ -879,21 +880,21 @@ background-size: 1800% 1800%;
 }
 
 @-webkit-keyframes fadeinhover {
-  0% {opacity: 1} 
+  0% {opacity: 1}
   100% {opacity:0}
 }
 
 @-moz-keyframes fadeinhover{
-  0% {opacity: 1} 
-  100% {opacity:0}  
+  0% {opacity: 1}
+  100% {opacity:0}
 }
 
 @keyframes fadeinhover {
-  0% {opacity: 1} 
+  0% {opacity: 1}
   100%{opacity: 0}
     }
 @-o-keyframes fadeinhover {
-  0% {opacity: 1} 
+  0% {opacity: 1}
   100%{opacity: 0}
 }
 
