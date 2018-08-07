@@ -344,7 +344,7 @@ h1.diff{
 }
 p.diff{
   white-space: normal;
-  padding: 0 25%;
+  text-align: center;
 
 }
 img.diff{
@@ -363,6 +363,7 @@ img.diff{
 }
 .image {
     width: 30%;
+    padding: 0 50px;
 }
 
 .diff-row{
@@ -377,8 +378,20 @@ img.diff{
 }
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-    .col {
-        width: 100%;
+    h1.diff{
+      white-space: normal;
+      text-align: center;
+      width: 100%;
+    }
+    p.diff{
+      width: 100%;
+    }
+    .diff-col {
+      width: 100%;
+    }
+    .different{
+      margin: 0;
+      width: 100%;
     }
 }
 
