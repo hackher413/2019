@@ -16,6 +16,7 @@ h1{
 
 h1.text-center{
   font-family: 'Raleway', sans-serif;
+  padding-bottom:30px;
 }
 
 * {
@@ -220,6 +221,11 @@ section {
   margin-right: 10px;
 }
 
+
+/*
+ * About Section
+ */
+
 .about {
   border-width: 15px 0;
   background-color:#edf0c7;
@@ -310,6 +316,8 @@ img.icon{
         width: 100%;
     }
 }
+
+
 /* What Makes Us Different */
 .different .hex .middle {
     width: 104px;
@@ -335,27 +343,55 @@ img.icon{
   position: relative;
   height:auto;
   margin: 50px 0;
+  text-align:left;
   white-space: nowrap;
   overflow:hidden;
   font-size: 1.2em;
 }
+
+.different img{
+  width:40%;
+  min-width:200px
+  margin: auto 0;
+}
+
+
 h1.diff{
   text-align: center;
+  color:black;
+  text-shadow: 2px 2px white;
 }
+
+.different .header1{
+  color:#EBF9F3;
+  text-shadow: 2px 2px #D099D5;
+  font-family: 'Raleway', sans-serif;
+}
+.different .header2{
+  color: #c3bdf1;
+  text-shadow: 2px 2px #EBF9F3;
+  font-family: 'Raleway', sans-serif;
+}
+.different .header3{
+  color:#D099D5;
+  text-shadow: 2px 2px #EBF9F3;
+  font-family: 'Raleway', sans-serif;
+}
+
 p.diff{
   white-space: normal;
-  text-align: center;
+  text-align: left;
+  padding: 20px 0;
+}
 
-}
-img.diff{
-  margin: auto 0;
-  max-width: 275px;
-}
 .diff-col{
   float: left;
   text-align: center;
 }
 
+.diff-col p{
+  text-align:left;
+}
 .text {
     width: 70%;
     white-space: normal;
@@ -387,7 +423,7 @@ img.diff{
     }
     p.diff{
       width: 100%;
-      padding: 0 10px;
+      padding: 0 20px;
       overflow-x: hidden;
     }
     .different{
@@ -437,6 +473,9 @@ img.diff{
       order: 2;
     }
 }
+
+
+
 
 
 /*
@@ -599,7 +638,7 @@ p.question{
     border: none;
     outline: none;
     transition: 0.4s;
-    font-size:24px;
+    font-size:20px;
 }
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
@@ -617,7 +656,7 @@ p.question{
 }
 .accordion:after {
     content: '\002B'; /* Unicode character for "plus" sign (+) */
-    font-size: 30px;
+    font-size: 16px;
     float: right;
     margin-left: 5px;
 }
@@ -781,6 +820,7 @@ p.question{
 }
 .hex-row {
     clear: left;
+    text-align:left;
 }
 .hex-row.even {
     margin-left: 53px;
@@ -920,6 +960,7 @@ p.question{
 
 
 /* RAINBOW BACKGROUND*/
+
 .rainbow {
 
 background: linear-gradient(130deg, #EBF9F3, #CA7C83, #D099D5,  #C7E3F0, #C3BDF1);
