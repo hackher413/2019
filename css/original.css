@@ -544,10 +544,10 @@ a {
   color:inherit;
 }
 
-/* Four columns side by side */
+/* Three columns side by side */
 .column {
     float: left;
-    width: 24%;
+    width: 32%;
     margin-left: 10px;
     margin-bottom: 16px;
     padding: 0 8px;
