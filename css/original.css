@@ -16,7 +16,8 @@ h1{
 
 h1.text-center{
   font-family: 'Raleway', sans-serif;
-  padding-bottom:30px;
+  padding-bottom:5px;
+  padding-top:10px;
 }
 
 * {
@@ -324,6 +325,7 @@ img.icon{
     height: 60px;
     background: white;
 }
+
 .different .hex .bottom {
     width: 0;
     border-top: 30px solid white;
@@ -336,6 +338,26 @@ img.icon{
     border-left: 52px solid transparent;
     border-right: 52px solid transparent;
 }
+
+.different  .hex .middle {
+    width: 104px;
+    height: 60px;
+    background: white;
+}
+
+.different .hex .bottom {
+    width: 0;
+    border-top: 30px solid white;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+.different .hex .top {
+    width: 0;
+    border-bottom: 30px solid white;
+    border-left: 52px solid transparent;
+    border-right: 52px solid transparent;
+}
+
 .different {
   border-width: 15px 0;
   background-color:#C7E3F0;
@@ -349,12 +371,14 @@ img.icon{
   font-size: 1.2em;
 }
 
+.different .container{
+  margin-top:160px;
+}
 .different img{
-  width:40%;
+  width:60%;
   min-width:200px
   margin: auto 0;
 }
-
 
 h1.diff{
   text-align: center;
@@ -381,17 +405,20 @@ h1.diff{
 p.diff{
   white-space: normal;
   text-align: left;
-  padding: 20px 0;
+  margin-right:20px;
+  margin-left:20px;
 }
 
 .diff-col{
   float: left;
   text-align: center;
+  vertical-align: center;
 }
 
 .diff-col p{
   text-align:left;
 }
+
 .text {
     width: 70%;
     white-space: normal;
@@ -404,8 +431,11 @@ p.diff{
 }
 
 .diff-row{
-  padding: 20px 0;
+  padding: 10px 0;
 }
+
+
+
 
 /* Clear floats after the columns */
 .diff-row:after {
@@ -430,6 +460,7 @@ p.diff{
       margin: 0;
       width: 100%;
     }
+
     .diff-col {
       width: 100%;
     }
@@ -451,9 +482,7 @@ p.diff{
       text-align: center;
       width: 100%;
     }
-    p.diff{
-      width: 100%;
-    }
+
     .diff-col {
       width: 100%;
     }
@@ -465,6 +494,10 @@ p.diff{
       display: flex;
       flex-direction: column;
       overflow-x: hidden;
+    }
+    .different img{
+      width:30%;
+      min-width:200px;
     }
     .text{
       order: 1;
@@ -484,8 +517,7 @@ p.diff{
 
 .sponsors {
   background-color: #fff;
-  margin-top: 15px;
-
+  margin-bottom:100px;
   position: relative;
 }
 
@@ -497,7 +529,8 @@ p.diff{
 .sponsors p {
   color: #0F2C34;
   font-weight: 600;
-  font-size: 22px;
+  margin-top:50px;
+  font-size: 16px;
   line-height: 1.6em;
   letter-spacing: -.3px;
 }
@@ -585,10 +618,12 @@ h2.name{
  * FAQ Section
  */
 
+.faq-section{
+  margin:100px;
+}
+
 .faq {
   background-color: #fff;
-  margin-top: 15px;
-  padding: 100px 0;
   position: relative;
 }
 
@@ -614,6 +649,11 @@ h2.name{
   font-size: 18px;
   line-height: 1.5em;
 }
+
+.faq p {
+  font-size: 16px;
+}
+
 
 .faq img {
   margin-bottom: -2px;
@@ -730,18 +770,16 @@ p.question{
 }
 
 .hexagon-top .firstrow .hex{
-  margin-left: -4px;
+  margin-left: -5px;
 }
 
-.hexagon-top .near-border{
-  margin-left: 40px;
+.near-border{
+ margin-left: 48px;
 }
 
-.hexagon-top .even-near-border{
-  margin-left: -15px;
+.even-near-border{
+  margin-left: -9px;
 }
-
-
 
 .hexagon-bottom{
   bottom:0;
@@ -757,37 +795,37 @@ p.question{
   margin-left: -4px;
 }
 
-.hexagon .hex .empty {
+.hex .empty {
     width: 104px;
     height: 60px;
     background: transparent;
 }
 
-.about .hexagon-top .hex .empty {
+.hexagon-top .hex .empty {
     width: 104px;
     height: 60px;
     background: transparent;
 }
 
-.about .hexagon-top .firstrow .hex .middle {
-    width: 108px;
+.hexagon-top .firstrow .hex .middle {
+    width: 110px;
     height: 60px;
     background: white;
 }
 
-.about .hexagon-top .hex .middle {
+.hexagon-top .hex .middle {
     width: 104px;
     height: 60px;
     background: white;
 }
 
-.about .hexagon-top .hex .bottom {
+ .hexagon-top .hex .bottom {
     width: 0;
     border-top: 30px solid white;
     border-left: 52px solid transparent;
     border-right: 52px solid transparent;
 }
-.about .hexagon-top .hex .top {
+.hexagon-top .hex .top {
     width: 0;
     border-bottom: 30px solid white;
     border-left: 52px solid transparent;
@@ -812,6 +850,7 @@ p.question{
     height: 60px;
     background: #C3BDF1;
 }
+
 .hex .bottom {
     width: 0;
     border-top: 30px solid #C3BDF1;
@@ -992,6 +1031,37 @@ background-size: 1800% 1800%;
     100%{background-position:0% 82%}
 }
 
+.rainbow-slow {
+
+background: linear-gradient(130deg, #EBF9F3, #CA7C83, #D099D5,  #C7E3F0, #C3BDF1);
+background-size: 1800% 1800%;
+
+-webkit-animation: rainbow 12s ease infinite;
+-z-animation: rainbow 12s ease infinite;
+-o-animation: rainbow 12s ease infinite;
+  animation: rainbow 12s ease infinite;}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+
 
 .hex {
     display: inline-block;
@@ -1132,11 +1202,6 @@ background-size: 1800% 1800%;
   /* vertically center */
 }
 
-.bee-gallery .container {
-  margin-bottom: 10%;
-  margin-top: 10%;
-}
-
 .flickity-button {
   background: #C7E3F0 !important;
 }
@@ -1189,7 +1254,6 @@ background-size: 1800% 1800%;
     }
 
     .about-section{
-      width:90vw;
       height:auto;
       left:5%;
       top:40%;

@@ -49,10 +49,15 @@ layout: default
 
 <!-- Hackathon Timeline -->
 <section class="bee-gallery">
+ 
+</div>
+</section>
+
+<!-- FAQ -->
+<section class="faq">
   <div class="container">
-    <div class="row">
-      <h1 class="text-center" style="font-family: 'Raleway', sans-serif;">What to Expect</h1>
-      <div class="col-xs-12 col-sm-10 col-sm-offset-1 text-center">
+         <h1 class="text-center faq-header" style="font-family: 'Raleway', sans-serif;">What to Expect</h1>
+      <div class="text-center">
         <!-- Flickity HTML init -->
         <div class="gallery js-flickity" data-flickity-options='{ "freeScroll": true }'>
           <div class="gallery-cell">
@@ -112,10 +117,24 @@ layout: default
             <p>Realize all You’ve Done in 24 Hours!</p>
           </div>
       </div>
+    <div class="conainer">
+      <div class="row faq-section">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+        <h1 class="text-center" style="font-family: 'Raleway', sans-serif;">FAQ</h1>
+        {% for item in site.event.faq %}
+        <button class="accordion">
+        {{ item.question }}
+        </button>
+         <div class="panel">
+          <p>{{ item.answer | markdownify }}</p>
+        </div>
+        {% endfor %}
+        <p>Have a question that wasn't answered here? Email us at <a href="mailto:hackher413@gmail.com">hackher413@gmail.com</a>!</p>
+      </div>
     </div>
   </div>
-</div>
 </section>
+
 
 <!-- Sponsors -->
 <section class="sponsors">
@@ -125,26 +144,11 @@ layout: default
       <div style="margin: auto;">
               <a target="_blank" href="https://www.cics.umass.edu/"><img src="images/CICS-medium.png" style=" width:10%; min-width:200px; white-space: nowrap;" alt="UMASS CICS"></a>
             </div>
-      <p>{{site.event.sponsors.description | markdownify}}</p>
+      {{site.event.sponsors.description | markdownify}}
     </div>
   </div>
 </section>
 
-<!-- FAQ -->
-<section class="faq">
-  <div class="container">
-    <h1 class="text-center" style="font-family: 'Raleway', sans-serif;">FAQ</h1>
-    {% for item in site.event.faq %}
-    <button class="accordion">
-    {{ item.question }}
-    </button>
-     <div class="panel">
-      <p>{{ item.answer | markdownify }}</p>
-    </div>
-    {% endfor %}
-    <p class="question">Have a question that wasn't answered here? Email us at <a href="mailto:hackher413@gmail.com">hackher413@gmail.com</a>!</p>
-  </div>
-</section>
 
 <!-- Meet the Team -->
 <section class="team">
