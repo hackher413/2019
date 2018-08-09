@@ -68,7 +68,7 @@ event:
     - question: "What is a hackathon?"
       answer: >
         A hackathon is an invention marathon. Students come together to build cool
-        software & hardware hacks over 24-48 hours. It's [very beginner friendly](https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl).
+        software & hardware creations over 24 hours. It's [very beginner friendly](https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000#.cj21niskl).
     - question: "How much does it cost?"
       answer: >
         Nothing. Attending a hackathon is free!
@@ -81,8 +81,8 @@ event:
         The event is being hosted at UMass Amherst.
     - question: "Why the bee?"
       answer: >
-        Honeybees operate in colonies where all the worker bees are female - from the nurse bees to the battle/warrior bees. We thought it was a good representation of women working hard and working together to solve problems!
-        For more information, check out https://en.wikipedia.org/wiki/Worker_bee
+        Honeybees operate in colonies where all the worker bees are female - from the nurse bees to the battle/warrior bees. 
+        We thought it was a good representation of women working hard and working together to solve problems!
     # - question: "What is Major League Hacking?"
     #   answer: >
     #     Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
