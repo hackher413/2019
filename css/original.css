@@ -262,6 +262,7 @@ section {
   font-weight: 700;
   text-transform: uppercase;
 }
+
 .about .hex .middle {
     width: 104px;
     height: 60px;
@@ -1256,8 +1257,13 @@ background-size: 1800% 1800%;
     .about-section{
       height:auto;
       left:5%;
-      top:40%;
+      top:5%;
+      width:90%;
       position:absolute;
+    }
+
+    .faq-section{
+      margin:10px;
     }
 
   .bee-gallery .flickity-page-dots{
