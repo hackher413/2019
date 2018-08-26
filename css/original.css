@@ -1,6 +1,6 @@
 /*
 * RegistrationHacks Style File
-* 
+*
 https://bit.ly/1ywfhq7
 */
 *= require animate
@@ -26,6 +26,9 @@ h1.text-center{
 }
 
 body {
+}
+p{
+  font-weight: 400;
 }
 
 section {
@@ -193,7 +196,7 @@ section {
 
 /* Add animation (fade in the popup) */
 @-webkit-keyframes fadeIn {
-    from {opacity: 0;} 
+    from {opacity: 0;}
     to {opacity: 1;}
 }
 
@@ -471,6 +474,10 @@ p.diff{
   text-align: left;
   margin-right:20px;
   margin-left:20px;
+}
+.bold{
+  font-weight: 900;
+  text-decoration: underline;
 }
 
 .diff-col{
