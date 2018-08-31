@@ -31,11 +31,11 @@ seo:
 # Event information.
 event:
   name:        "HackHer413"
-  image:       "images/logo1.png"
+  image:       "images/logo.png"
   description: "The first all-women and non-binary student hackathon in Western Mass!"
   date:        "February 2019"
   location:    "UMass Amherst"
-  
+
 
   # trust_badge:
   #   year:   "2017"  # season year
@@ -53,10 +53,10 @@ event:
 
   about:
     description: >
-      HackHer413 is a hackathon for women and nonbinary students hosted at the 
-      University of Massachusetts Amherst. Over the course of 24 hours, 
-      hackathon participants are encouraged to learn new skills, network, and 
-      build something that they are passionate about. This student-run hackathon aims 
+      HackHer413 is a hackathon for women and nonbinary students hosted at the
+      University of Massachusetts Amherst. Over the course of 24 hours,
+      hackathon participants are encouraged to learn new skills, network, and
+      build something that they are passionate about. This student-run hackathon aims
       to help increase diversity in the tech industry. We hope you can join us!
 
   # Sponsors Section
@@ -81,7 +81,7 @@ event:
         The event is being hosted at UMass Amherst.
     - question: "Why the bee?"
       answer: >
-        Honeybees operate in colonies where all the worker bees are female - from the nurse bees to the battle/warrior bees. 
+        Honeybees operate in colonies where all the worker bees are female - from the nurse bees to the battle/warrior bees.
         We thought it was a good representation of women working hard and working together to solve problems!
     # - question: "What is Major League Hacking?"
     #   answer: >
