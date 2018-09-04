@@ -1,6 +1,6 @@
 $("#close-modal-button").click(function() {
 		$(".sign-up-modal").fadeOut(200);
-    $(".btn").fadeIn(200);
+   // $(".email-btn").fadeIn(200);
 });
 
 $(document).ready(function(){
@@ -10,7 +10,7 @@ $(document).ready(function(){
   var fadeInTime = 600; //time in ms
   var fadeOutTime = 600; //time in ms
   var popupWindow = $('.sign-up-modal');
-  var button = $('.btn');
+  var button = $('.email-btn');
   //jquery selector of window
 
   /* define simple fade functions */
@@ -26,9 +26,9 @@ $(document).ready(function(){
   /* open #popup-window on click of .popup-trigger */
   /*-----------------------------------------------*/
 
-  $('.btn').on('click touchend', function(){
+  $('.email-btn').on('click touchend', function(){
     fadein(popupWindow);
-    fadeout(button);
+    //fadeout(button);
   })
 
   /* close #popup-window on click of .popup-close */
@@ -36,7 +36,7 @@ $(document).ready(function(){
 
   $('.popup-close').on('click touchend', function() {
     fadeout(popupWindow);
-    fadein(button);
+    //fadein(button);
   });
 
   /* close #popup-window on click a anywhere outside the window	*/
@@ -46,7 +46,7 @@ $(document).ready(function(){
           && popupWindow.has(e.target).length === 0) // ... nor descendant of container
       {
       fadeout(popupWindow);
-      fadein(button);
+      //fadein(button);
       }
   });
 
@@ -55,7 +55,7 @@ $(document).ready(function(){
   $(document).on('keyup', function(e) {
       if (e.keyCode == 27) { // (escape key)
       fadeout(popupWindow);
-      fadein(button);
+      //fadein(button);
       }
   });
 
