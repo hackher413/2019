@@ -76,6 +76,10 @@ event:
       answer: >
         Yes. Only students who are currently enrolled at a college/university or have graduated in the
         last 12 months are eligible to attend.
+    - question: "I do not identify as a women or non binary student. Can I still participate?"
+      answer: >
+        Yes! You are able to apply as a volunteer. Volunteers will still have full access to the
+        event in exchange for helping out. However, they will not be eligible to submit hacks for prizes.
     - question: "Where is the event?"
       answer: >
         The event is being hosted at UMass Amherst.
