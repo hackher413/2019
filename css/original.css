@@ -21,12 +21,9 @@ h1.text-center{
   padding-top:10px;
 }
 
-* {
-  font-family: 'News Cycle', sans-serif;
-}
-
 body {
 }
+
 p{
   font-weight: 400;
 }
@@ -98,12 +95,12 @@ section {
 
 .hero .wrapper h2 {
   font-size: 28px;
-  font-weight: 200;
+
 }
 
 .hero .wrapper h3 {
   font-size: 20px;
-  font-weight: 200;
+
   padding-bottom: 35px;
 }
 
@@ -224,7 +221,7 @@ section {
   overflow: hidden;
   position: absolute;
   color: #fff;
-  font-weight: 700;
+
   font-size: 15px;
   background-color: #0F2C34;
   padding: 17px 60px;
@@ -274,7 +271,7 @@ section {
   display: inline;
   font-family: Montserrat;
   font-size: 24px;
-  font-weight: 700;
+
   padding: 10px 70px;
   text-decoration: none;
   text-transform: uppercase;
@@ -316,7 +313,7 @@ section {
   word-wrap: break-word;
   color: #0F2C34;
   background: #EBF9F3;
-  font-weight: 600;
+  : 600;
   font-size: 22px;
   line-height: 1.6em;
   letter-spacing: -.3px;
@@ -328,7 +325,7 @@ section {
 
 
 .about-section p span {
-  font-weight: 700;
+  : 700;
   text-transform: uppercase;
 }
 
@@ -597,13 +594,13 @@ p.diff{
 }
 
 .sponsors h1 {
-  font-weight: 700;
+
   margin: 20px 0;
 }
 
 .sponsors p {
   color: #0F2C34;
-  font-weight: 600;
+
   margin-top:50px;
   font-size: 16px;
   line-height: 1.6em;
@@ -655,7 +652,7 @@ p.diff{
 }
 
 .partners h1 {
-  font-weight: 700;
+
   margin: 20px 0;
 }
 
@@ -680,7 +677,7 @@ p.diff{
 }
 
 .team h1 {
-  font-weight: 700;
+
   margin: 20px 0;
 }
 
@@ -760,14 +757,14 @@ h2.name{
 }
 
 .faq h1 {
-  font-family: 'Montserrat';
-  font-weight: 700;
+
+
   margin: 30px 0;
 }
 
 .faq .question h2 {
-  font-family: 'Montserrat';
-  font-weight: 700;
+
+
   font-size: 24px;
 }
 
@@ -852,9 +849,9 @@ p.question{
 }
 
 .footer h3 {
-  font-family: 'Montserrat';
+
   font-size: 16px;
-  font-weight: 400;
+
   line-height: 26px;
   margin: 0;
 }
@@ -1486,7 +1483,7 @@ background-size: 1800% 1800%;
 }
 
 .sign-up-modal input[type="email"] {
-		font-weight: 700;
+
 		font-size: 1.4em;
 		padding: 10px;
 		border-width: 2px;
@@ -1511,7 +1508,7 @@ background-size: 1800% 1800%;
 }
 
 .sign-up-modal input[type="submit"] {
-		font-weight: 700;
+
 		font-size: 1.8em;
 		color: #111;
 		background: #fefefe;
