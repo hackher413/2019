@@ -629,6 +629,7 @@ p.diff{
   .sponsor-column {
     flex: 50%;
     max-width: 50%;
+    padding: 10px;
   }
   .sponsor-row{
     padding-top: 10px;
@@ -640,6 +641,7 @@ p.diff{
   .sponsor-column {
     flex: 100%;
     max-width: 100%;
+    padding: 10px;
   }
   .sponsor-row{
     padding-top: 10px;
