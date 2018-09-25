@@ -641,7 +641,7 @@ p.diff{
   .sponsor-column {
     flex: 100%;
     max-width: 100%;
-    padding: 10px;
+    padding-top: 15px;
   }
   .sponsor-row{
     padding-top: 10px;
