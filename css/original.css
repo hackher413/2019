@@ -588,38 +588,28 @@ p.diff{
 
 .sponsors {
   background-color: #fff;
-  position: relative;
   text-align: center;
 }
 
-.sponsors h1 {
-
-  margin: 20px 0;
-}
-
-.sponsors p {
+.sponsors p{
   color: #0F2C34;
-
-  margin-top:50px;
-  font-size: 16px;
+  font-size:16px;
   line-height: 1.6em;
   letter-spacing: -.3px;
 }
 .sponsor-row {
   display: flex;
-  flex-wrap: wrap;
-  margin-top: 100px;
+  flex-wrap:wrap;
 }
 
 /* Create three equal columns that sits next to each other */
 .sponsor-column {
-  flex: 30%;
-  max-width: 30%;
+  flex: 31%;
+  max-width: 31%;
   padding: 50px;
 }
 
-.sponsor-column img {
-  margin-top: 3%;
+.sponsor-column img{
   vertical-align: middle;
 }
 
@@ -647,23 +637,9 @@ p.diff{
 
 .partners {
   background-color: #fff;
-  margin-bottom:100px;
-  position: relative;
+  position:relative;
   text-align: center;
 }
-
-.partners h1 {
-
-  margin: 20px 0;
-}
-
-.partner-row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-
 
 /*
  * Meet the Team
@@ -764,8 +740,6 @@ h2.name{
 }
 
 .faq .question h2 {
-
-
   font-size: 24px;
 }
 
