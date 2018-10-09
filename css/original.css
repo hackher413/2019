@@ -601,7 +601,7 @@ p.diff{
 .sponsor-row {
   display: flex;
   flex-wrap:wrap;
-  margin: 0;
+  margin: 10px;
 }
 
 /* Create three equal columns that sits next to each other */
