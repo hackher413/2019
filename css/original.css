@@ -601,14 +601,14 @@ p.diff{
 .sponsor-row {
   display: flex;
   flex-wrap:wrap;
-  margin: 10px;
+  margin: 30px;
 }
 
 /* Create three equal columns that sits next to each other */
 .sponsor-column {
   flex: 33%;
   max-width: 33%;
-  margin: 0;
+  margin: 10px;
 }
 
 .sponsor-column img{
@@ -640,7 +640,7 @@ p.diff{
 .partners {
   background-color: #fff;
   text-align: center;
-  margin: 0;
+  margin: 30px;
 }
 
 /*
