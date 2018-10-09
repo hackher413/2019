@@ -604,9 +604,8 @@ p.diff{
 
 /* Create three equal columns that sits next to each other */
 .sponsor-column {
-  flex: 31%;
-  max-width: 31%;
-  padding: 50px;
+  flex: 33%;
+  max-width: 33%;
 }
 
 .sponsor-column img{
@@ -616,8 +615,8 @@ p.diff{
 /* Responsive layout - makes a two column-layout instead of three columns */
 @media screen and (max-width: 800px) {
   .sponsor-column {
-    flex: 48%;
-    max-width: 48%;
+    flex: 50%;
+    max-width: 50%;
   }
 
 }
@@ -637,7 +636,6 @@ p.diff{
 
 .partners {
   background-color: #fff;
-  position:relative;
   text-align: center;
 }
 
@@ -648,14 +646,12 @@ p.diff{
 .team {
   overflow: hidden;
   background-color: #fff;
-  margin-top: 15px;
   padding: 30px 0;
   position: relative;
 }
 
 .team h1 {
-
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .border{
