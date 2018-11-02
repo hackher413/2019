@@ -21,12 +21,9 @@ h1.text-center{
   padding-top:10px;
 }
 
-* {
-  font-family: 'News Cycle', sans-serif;
-}
-
 body {
 }
+
 p{
   font-weight: 400;
 }
@@ -98,12 +95,12 @@ section {
 
 .hero .wrapper h2 {
   font-size: 28px;
-  font-weight: 200;
+
 }
 
 .hero .wrapper h3 {
   font-size: 20px;
-  font-weight: 200;
+
   padding-bottom: 35px;
 }
 
@@ -224,7 +221,7 @@ section {
   overflow: hidden;
   position: absolute;
   color: #fff;
-  font-weight: 700;
+
   font-size: 15px;
   background-color: #0F2C34;
   padding: 17px 60px;
@@ -274,7 +271,7 @@ section {
   display: inline;
   font-family: Montserrat;
   font-size: 24px;
-  font-weight: 700;
+
   padding: 10px 70px;
   text-decoration: none;
   text-transform: uppercase;
@@ -316,7 +313,7 @@ section {
   word-wrap: break-word;
   color: #0F2C34;
   background: #EBF9F3;
-  font-weight: 600;
+  : 600;
   font-size: 22px;
   line-height: 1.6em;
   letter-spacing: -.3px;
@@ -328,7 +325,7 @@ section {
 
 
 .about-section p span {
-  font-weight: 700;
+  : 700;
   text-transform: uppercase;
 }
 
@@ -589,59 +586,28 @@ p.diff{
  * Sponsors Section
  */
 
+.row{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
 .sponsors {
   background-color: #fff;
-  margin-bottom:100px;
-  position: relative;
   text-align: center;
+  margin: 0;
 }
 
-.sponsors h1 {
-  font-weight: 700;
-  margin: 20px 0;
-}
-
-.sponsors p {
+.sponsors p{
   color: #0F2C34;
-  font-weight: 600;
-  margin-top:50px;
-  font-size: 16px;
+  font-size:16px;
   line-height: 1.6em;
   letter-spacing: -.3px;
 }
-.sponsor-row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
 
-/* Create three equal columns that sits next to each other */
-.sponsor-column {
-  flex: 33%;
-  max-width: 33%;
-  padding: 0 4px;
-}
-
-.sponsor-column img {
-  margin-top: 8px;
-  vertical-align: middle;
-}
-
-/* Responsive layout - makes a two column-layout instead of three columns */
-@media screen and (max-width: 800px) {
-  .sponsor-column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .sponsor-column {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
 
 /*
  * Partners Section
@@ -649,23 +615,8 @@ p.diff{
 
 .partners {
   background-color: #fff;
-  margin-bottom:100px;
-  position: relative;
   text-align: center;
 }
-
-.partners h1 {
-  font-weight: 700;
-  margin: 20px 0;
-}
-
-.partner-row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-
 
 /*
  * Meet the Team
@@ -674,14 +625,12 @@ p.diff{
 .team {
   overflow: hidden;
   background-color: #fff;
-  margin-top: 15px;
   padding: 30px 0;
   position: relative;
 }
 
 .team h1 {
-  font-weight: 700;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .border{
@@ -717,6 +666,9 @@ a {
     margin-bottom: 16px;
     padding: 0 8px;
     text-align: center;
+}
+.team-row{
+
 }
 
 
@@ -760,14 +712,12 @@ h2.name{
 }
 
 .faq h1 {
-  font-family: 'Montserrat';
-  font-weight: 700;
+
+
   margin: 30px 0;
 }
 
 .faq .question h2 {
-  font-family: 'Montserrat';
-  font-weight: 700;
   font-size: 24px;
 }
 
@@ -852,9 +802,9 @@ p.question{
 }
 
 .footer h3 {
-  font-family: 'Montserrat';
+
   font-size: 16px;
-  font-weight: 400;
+
   line-height: 26px;
   margin: 0;
 }
@@ -1486,7 +1436,7 @@ background-size: 1800% 1800%;
 }
 
 .sign-up-modal input[type="email"] {
-		font-weight: 700;
+
 		font-size: 1.4em;
 		padding: 10px;
 		border-width: 2px;
@@ -1511,7 +1461,7 @@ background-size: 1800% 1800%;
 }
 
 .sign-up-modal input[type="submit"] {
-		font-weight: 700;
+
 		font-size: 1.8em;
 		color: #111;
 		background: #fefefe;
