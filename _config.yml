@@ -36,7 +36,6 @@ event:
   date:        "February 9 - 10, 2019"
   location:    "UMass Amherst"
 
-
   trust_badge:
     year:   "2019"  # season year
     region: "na"    # "na" or "eu"
