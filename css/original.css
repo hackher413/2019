@@ -128,6 +128,63 @@ section {
     Multicoloured Hover Variations
 */
 
+/* Apply button */
+.apply-btn-container{
+  height:100%;
+  position: relative;
+  /*position: absolute;
+  top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+}
+.apply-btn a {
+    margin-top: calc(50% + 25px);
+    position: relative;
+    text-decoration: none !important;
+    display: inline-block;
+    width: 277px;
+    height: 50px;
+}
+
+.apply-btn svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-32%);
+}
+
+.apply-btn svg rect {
+    stroke-width: 4;
+    stroke-dasharray: 353, 0;
+    stroke-dashoffset: 0;
+    -webkit-transition: all 600ms ease;
+    transition: all 600ms ease;
+}
+
+.apply-btn span{
+  top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+  color: #022B3A;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: 'News Cycle', sans-serif !important;
+  font-weight:300;
+   text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.apply-btn:hover svg rect {
+    stroke-width: 4;
+    stroke-dasharray: 196, 543;
+    stroke-dashoffset: 437;
+}
+
 #lab_social_icon_header #social-fb:hover {
   color: #3B5998;
 }
@@ -209,6 +266,7 @@ section {
   align-items: center;
   justify-content: center;
 }
+/*
 .btn, .email-btn {
   border: none;
   display: block;
@@ -288,7 +346,7 @@ section {
   margin-right: 10px;
 }
 
-
+*/
 /*
  * About Section
  */
@@ -1350,14 +1408,14 @@ background-size: 1800% 1800%;
   .bee-gallery .flickity-page-dots{
       display:none !important;
     }
-
+/*
   .hero .buttons a {
     border-width: 8px;
     display: block;
     font-size: 20px;
     margin: 5px;
   }
-
+*/
   .hero img {
     width: 250px;
   }
@@ -1510,5 +1568,3 @@ background-size: 1800% 1800%;
 				width: 70%;
 		}
 }
-
-/* Apply button */

@@ -1,26 +1,33 @@
 # --------------
 # -- Settings --
 # --------------
+
 # Ignore this. This is only if you're hosting this in a sub-folder.
 # If you're using GitHub pages, they automatically override this with the right value.
 baseurl: "/website"
+
 # If you're using GitHub pages without a custom domain, this is "https://[github username].github.io"
 # If you're using GitHub pages with a custom domain, this is "http://[your domain]" (or https if you're using SSL)
 url: "https://hackher413.github.io"
+
 # The ability to use custom themes.
 style:
   theme: "original"
+
 # This will help you track who's visiting your website.
 tracking:
   google_analytics: "UA-43729070-14"
+
 # Let people connect & engage with you through social media.
 social:
   twitter_handle: "@hackher413"
+
 # This is Search Engine Optimization. It'll help your website look better on search.
 seo:
   title:       "HackHer413 | February 9 - 10, 2019"
   description: "The first all-women and non-binary student hackathon in Western Mass."
   image:       "images/bee_side.png"
+
 # Event information.
 event:
   name:        "HackHer413"
@@ -28,10 +35,13 @@ event:
   description: "The first all-women and non-binary students' hackathon in Western Mass!"
   date:        "February 9 - 10, 2019"
   location:    "UMass Amherst"
-  # trust_badge:
-  #   year:   "2019"  # season year
-  #   region: "na"    # "na" or "eu"
-  #   color:  "white" # "white", "black", "gray", "red", "blue" or "yellow"
+
+
+  trust_badge:
+    year:   "2019"  # season year
+    region: "na"    # "na" or "eu"
+    color:  "black" # "white", "black", "gray", "red", "blue" or "yellow"
+
   hero:
     links:
       # - text: "Apply"
@@ -40,6 +50,7 @@ event:
       #     redirect_uri: "https://mlh.github.io/mlh-hackathon-boilerplate/success.html"
       - text: "Sponsor"
         href: "mailto:hackher413@gmail.com"
+
   about:
     description: >
       HackHer413 is a hackathon for women and nonbinary students hosted at the
@@ -50,6 +61,7 @@ event:
   # Sponsors Section
   sponsors:
     description: Interested in sponsoring HackHer413? Send us an email at hackher413@gmail.com!
+
   # Frequently asked questions.
   faq:
     - question: "What is a hackathon?"
@@ -78,13 +90,13 @@ event:
       answer: >
         Honeybees operate in colonies where all the worker bees are female - from the nurse bees to the battle/warrior bees.
         We thought it was a good representation of women working hard and working together to solve problems!
-     - question: "What is Major League Hacking?"
-       answer: >
-         Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
-         We work with over 200 Member Events and empower over 70,000 students every year.
-     - question: "Is there a code of conduct?"
-       answer: >
-         Yes there is. We enforce it very strongly. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
+    - question: "What is Major League Hacking?"
+      answer: >
+        Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
+        We work with over 200 Member Events and empower over 70,000 students every year.
+    - question: "Is there a code of conduct?"
+      answer: >
+        Yes there is. We enforce it very strongly. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
   # This is the message you'll receive once you've registered.
   register:
     message: >
@@ -92,6 +104,7 @@ event:
 # ----------------------------------------------------
 # -- Ignore this unless you know what you're doing. --
 # ----------------------------------------------------
+
 markdown: kramdown
 exclude:
  - node_modules
