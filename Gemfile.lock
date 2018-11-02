@@ -13,14 +13,11 @@ GEM
     ffi (1.9.25)
     ffi (1.9.25-x64-mingw32)
     forwardable-extended (2.6.0)
-<<<<<<< HEAD
+
     http_parser.rb (0.6.0)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
     jekyll (3.8.4)
-=======
-    jekyll (3.3.0)
->>>>>>> parent of b374cb4... Update Gemfile.lock
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
