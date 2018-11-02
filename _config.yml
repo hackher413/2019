@@ -78,13 +78,13 @@ event:
       answer: >
         Honeybees operate in colonies where all the worker bees are female - from the nurse bees to the battle/warrior bees.
         We thought it was a good representation of women working hard and working together to solve problems!
-    # - question: "What is Major League Hacking?"
-    #   answer: >
-    #     Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
-    #     We work with over 200 Member Events and empower over 70,000 students every year.
-    # - question: "Is there a code of conduct?"
-    #   answer: >
-    #     Yes there is. We enforce it very strongly. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
+    - question: "What is Major League Hacking?"
+      answer: >
+        Major League Hacking is [the official student hackathon league](https://mlh.io) in North America & Europe.
+        We work with over 200 Member Events and empower over 70,000 students every year.
+    - question: "Is there a code of conduct?"
+      answer: >
+        Yes there is. We enforce it very strongly. You can [find it here](https://static.mlh.io/docs/mlh-code-of-conduct.pdf).
   # This is the message you'll receive once you've registered.
   register:
     message: >
