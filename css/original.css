@@ -129,61 +129,53 @@ section {
 */
 
 /* Apply button */
-.apply-btn-container{
-  height:100%;
-  position: relative;
-  /*position: absolute;
-  top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);*/
-}
-.apply-btn a {
-    margin-top: calc(50% + 25px);
-    position: relative;
-    text-decoration: none !important;
-    display: inline-block;
-    width: 277px;
-    height: 50px;
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-.apply-btn svg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(-32%);
+.apply-buttons {
+    text-align: center;
 }
 
-.apply-btn svg rect {
-    stroke-width: 4;
-    stroke-dasharray: 353, 0;
-    stroke-dashoffset: 0;
-    -webkit-transition: all 600ms ease;
-    transition: all 600ms ease;
+.apply-btn-hover {
+    width: 200px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    font-family:'News Cycle', sans-serif !important;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 
-.apply-btn span{
-  top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%)
-  color: #022B3A;
-  font-size: 25px;
-  font-weight: bold;
-  line-height: 60px;
-  text-align: center;
-  text-transform: uppercase;
-  background-color: transparent;
-  cursor: pointer;
-  font-family: 'News Cycle', sans-serif !important;
-  font-weight:300;
-   text-decoration: none;
-  letter-spacing: 0.02em;
+.apply-btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 
-.apply-btn:hover svg rect {
-    stroke-width: 4;
-    stroke-dasharray: 196, 543;
-    stroke-dashoffset: 437;
+.apply-btn-hover:focus {
+    outline: none;
 }
+
+.apply-btn-hover.color-1 {
+    background-image: linear-gradient(to right, #D099D5, #C3BDF1,#C7E3F0);
+    box-shadow: 0 4px 15px 0 rgba(  208, 153, 213, 0.75);
+}
+
 
 #lab_social_icon_header #social-fb:hover {
   color: #3B5998;
