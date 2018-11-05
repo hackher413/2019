@@ -24,6 +24,10 @@ h1.text-center{
 body {
 }
 
+a{
+  color: #CA7C83;
+}
+
 p{
   font-weight: 400;
 }
