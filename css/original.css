@@ -1667,16 +1667,16 @@ section.prizes{
 }
 
 .prize_categories{
-  font: 70px 'Gugi', cursive;
+  font: 60px 'Gugi', cursive;
   color: #EBF9F3;
   text-shadow: 0 0px 100px, 0 0 2px, 0 0 1em #EBF9F3, 0 0 0.5em #C3BDF1, 0 0 0.1em #C3BDF1, 0 2px 3px #000;
 }
 .b1{
-  font: 70px 'Gugi', cursive;
+  font: 60px 'Gugi', cursive;
   animation: blink linear infinite 2s;
 }
 .b2{
-  font: 70px 'Gugi', cursive;
+  font: 60px 'Gugi', cursive;
   animation: blink linear infinite 3s;
 }
 @keyframes blink {
