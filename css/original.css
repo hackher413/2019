@@ -976,10 +976,11 @@ p.question{
 }
 
 .keynote .hexagon-bottom{
-  overflow: hidden;
-  white-space: nowrap;
-  margin-bottom:-70px;
-  position:absolute;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: -120px;
+    position: relative;
+    height: 200px;
 }
 
 
@@ -1636,17 +1637,33 @@ background-size: 1800% 1800%;
 /* PRIZE CATEGORIES */
 section.prizes{
   background-color: #D099D5;
+    margin-top: -50px;
+    padding-top: 50px;
+    padding-bottom:75px;
 }
 .prize_categories {
   text-align: center;
   width: 100%;
   height: auto;
-  margin-bottom: 75px;
+  margin-bottom: 30px;
   position: relative;
   top: 30px;
   left: 0;
   right: 0;
   bottom: 0;
+}
+
+.prizes-col{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.prize_description{
+  margin: 0 auto;
+  text-align: center;
+}
+.prize_description h4{
+    line-height:  1.4 !important;
 }
 
 .prize_categories{
@@ -1699,6 +1716,7 @@ section.prizes{
 #post-it-container {
   position: relative;
   width: auto;
+  margin-top:30px;
   height: 300px;
   width:300px;
   z-index: 1;
@@ -1743,8 +1761,11 @@ box-shadow: 2px 2px 9px rgba(194,194,194,.9);
   box-sizing: border-box;
   color: black;
   text-align: left;
+  padding:20px;
   font-size:16px;
 }
+
+
 
 div.prize_title {
 margin:0;
