@@ -1688,7 +1688,7 @@ section.prizes{
      color: #A9A9A9;
   }
   80% {
-    
+
     text-shadow: none;
   }
   81% {
@@ -1717,8 +1717,8 @@ section.prizes{
   position: relative;
   width: auto;
   margin-top:30px;
-  height: 300px;
-  width:300px;
+  height: 350px;
+  width:350px;
   z-index: 1;
   float: left;
 }
