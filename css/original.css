@@ -1796,3 +1796,54 @@ background: #EBF9F3;
 }
 
 #post-its {width:100%;}
+
+
+/* VOLUNTEER SECTION */
+
+.volunteer p {
+    font-size: 16px;
+    margin: auto;
+    text-align: left;
+    max-width: 85%;
+    line-height: 1.6em;
+}
+
+.volunteer-buttons {
+    text-align: center;
+}
+
+.volunteer-btn-hover {
+    width: 200px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    font-family:'News Cycle', sans-serif !important;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.volunteer-btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.volunteer-btn-hover:focus {
+    outline: none;
+}
+
+.volunteer-btn-hover.color-1 {
+    background-image: linear-gradient(to left, #D099D5, #C3BDF1,#C7E3F0);
+    box-shadow: 0 4px 15px 0 rgba(  208, 153, 213, 0.75);
+}
