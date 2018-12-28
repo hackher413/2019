@@ -30,7 +30,7 @@ layout: default
             <p>Discover new industries</p>
             <p>Meet students from other majors</p>
             <p>Roam the beautiful UMass campus</p>
-            <p>Get acquainted with new technologies</p>
+         wo   <p>Get acquainted with new technologies</p>
         </div>
         <div class="icon-column">
           <img class="icon" src="images/Creating.png" alt="Bee with lightbulb idea">
@@ -67,7 +67,12 @@ layout: default
 <!-- Keynote Section -->
 {% include keynote.html %}
 
+<!-- Prizes Section -->
 {% include prize-categories.html %}
+
+<!-- Resources Section -->
+{% include resources.html %}
+
 <!-- FAQ -->
 <section class="faq">
     <div class="container">
@@ -122,7 +127,7 @@ layout: default
             <a target="_blank" href="https://www.libertymutual.com/"><img class="s-logo" src="images/logos/PNGPIX-COM-Liberty-Mutual-Insurance-Logo-PNG-Transparent.png" style=" width:15%; min-width:300px; white-space: nowrap; padding: 10px;" alt="Liberty Mutual"></a>
           </div>
           <div class="col py-3">
-            <a target="_blank" href="https://cloud.google.com/"><img class="s-logo" src="images/logos/GCP logo, transparent.png" style=" width:15%; min-width:400px; white-space: nowrap; padding: 10px;" alt="Google Cloud Platform"></a>
+            <a target="_blank" href="https://cloud.google.com/"><img class="s-logo" src="images/logos/GCP logo, transparent.png" style=" width:15%; min-width:300px; white-space: nowrap; padding: 10px;" alt="Google Cloud Platform"></a>
           </div>
         </div>
           <div class="row">
@@ -155,10 +160,6 @@ layout: default
                 <a target="_blank" href="https://github.com/"><img class="s-logo" src="images/logos/github-logo.svg" style=" width:15%; min-width:200px; white-space: nowrap; padding: 10px;" alt="GitHub"></a>
               </div>
             </div>
-            <!-- <div class="popup" onclick="myFunction()">
-                <span class="popuptext" id="myPopup">Email us at <span class="pseudolink" onclick="window.open('mailto:hackher413@gmail.com', '_blank');">hackher413@gmail.com</span> and check out our <script async src="https://sdk.canva.com/v1/embed.js"></script><span class="pseudolink" onclick="window.open('https://www.hackher413.com/sponsorship-packet.pdf', '_blank');">Sponsorship Packet!</span></span>
-                <button class="btn" id="sponsor-btn" style="position:relative;"><span>Sponsor</span></button>
-    </div> -->
     {{site.event.sponsors.description | markdownify}}
   </div>
 </section>

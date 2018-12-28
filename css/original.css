@@ -803,7 +803,7 @@ h2.name{
  */
 
 .faq-section{
-  margin:100px;
+  margin:0px;
 }
 
 .faq, .expect {
@@ -1846,4 +1846,109 @@ background: #EBF9F3;
 .volunteer-btn-hover.color-1 {
     background-image: linear-gradient(to left, #D099D5, #C3BDF1,#C7E3F0);
     box-shadow: 0 4px 15px 0 rgba(  208, 153, 213, 0.75);
+}
+
+/* RESOURCES SECTION */
+.resources {
+    /*height: 100vh;*/
+    width: 100%;
+    display: grid;
+    place-items: center;
+    background-color: white;
+    /*margin:0;
+    overflow: auto;*/
+}
+
+.main-grid{
+    display: grid;
+    grid-column-gap: 1.5vw;
+    grid-row-gap: 4.6vw;
+    grid-template-columns:
+                repeat(7, 4.4vw);
+    grid-auto-rows: 4.7vw;
+    grid-template-areas:
+         "g1 . g2 . g3  .  g5"    
+         ". g6 . g7 . g4  ."
+         ". . g8 . g9 . . ";
+    justify-content: space-evenly;
+}
+
+.r-hex1{
+    grid-area: g1;
+}
+.r-hex2{
+    grid-area: g2;
+}
+.r-hex3{
+    grid-area: g3;
+}
+.r-hex4{
+    grid-area: g4;
+}
+.r-hex5{
+    grid-area: g5;
+}
+.r-hex6{
+    grid-area: g6;
+}
+.r-hex7{
+    grid-area: g7;
+}
+.r-hex8{
+    grid-area: g8;
+}
+.r-hex9{
+    grid-area: g9;
+}
+
+.clip-o{
+  position: relative;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  transform: scale(2.5);
+}
+
+.clip-o:hover{
+  transition: ease-out 0.1s transform;
+  z-index: 1;
+  transform: scale(3.5);
+  /*box-shadow: 500px 500px 500px 500px black;*/
+}
+
+@media (max-width: 1100px){
+  .main-grid{
+    display: grid;
+    grid-column-gap: 2.7vw;
+    grid-row-gap: 7.4vw;
+    grid-template-columns:
+                repeat(7, 7.5vw);
+    grid-auto-rows: 7.5vw;
+    grid-template-areas:
+         "g1 . g2 . g3  .  g5"    
+         ". g6 . g7 . g4  ."
+         ". . g8 . g9 . . ";
+    justify-content: space-evenly;
+  }
+}
+
+
+@media (max-width: 700px){
+  
+.main-grid{
+  grid-column-gap: 4vw;
+  grid-row-gap: 10vw;
+  grid-template-columns:
+                repeat(3, 10vw);
+  grid-auto-rows: 10vw;
+  grid-template-areas:
+         "g1 . g2"
+         ". g3 ."
+         "g4 . g5"
+         " . g6 ."
+         "g7 . g8"
+         " . g9 .";
+  }
 }
