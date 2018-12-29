@@ -81,8 +81,16 @@ section {
     color: #f8f9fa !important;
     background-color: #D099D5;
 }
+@media (max-width: 575.98px){
+  .navbar-expand-sm>.container, .navbar-expand-sm>.container-fluid{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    }
 
-
+  button.navbar-toggler{
+    margin-left: 5px !important;
+  }
+}
 .hero hr {
   margin: 0;
   position: relative;
