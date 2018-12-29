@@ -1,11 +1,61 @@
 ---
 layout: default
 ---
+
 {% include hexagons.html %}
 
 {% include hero.html %}
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
+
+ <!-- Navigation -->
+  <div class="header sticky-top">
+    <nav class="navbar-sticky-top navbar-expand-sm navbar-light"  style="background-color: #F8F8F8;" id="mainNav">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#apply">Apply</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About HackHer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#volunteer">Volunteer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#different">Signature Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#expect">What to Expect</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#keynote">Keynote</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#prizes">Prize Categories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#resources">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#faq">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#sponsors">Sponsors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#team">Our Team</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  
 <!-- About -->
 {% include about.html %}
 
@@ -13,7 +63,6 @@ layout: default
 <section class="icons">
   <div class="container">
     <div class="icon-row">
-
         <h1 class="text-center" style="font-family: 'Raleway', sans-serif;">Hackathons Provide Endless Possibilities</h1>
         <div class="icon-column">
           <img class="icon" src="images/Learning.png" alt="Bee with code snippet">
@@ -30,7 +79,7 @@ layout: default
             <p>Discover new industries</p>
             <p>Meet students from other majors</p>
             <p>Roam the beautiful UMass campus</p>
-         wo   <p>Get acquainted with new technologies</p>
+            <p>Get acquainted with new technologies</p>
         </div>
         <div class="icon-column">
           <img class="icon" src="images/Creating.png" alt="Bee with lightbulb idea">
@@ -41,7 +90,7 @@ layout: default
             <p>Be proud of what you’ve accomplished</p>
         </div>
       </div>
-    <div class="icon-row volunteer">
+    <div id="volunteer" class="icon-row volunteer">
         <h1 class="text-center" style="font-family: 'Raleway', sans-serif;">Want to help out?</h1>
         <p>Apply to be volunteer! By filling out this form below, you are completing the first step to support HackHer413 in creating an encouraging space for women and non-binary students to learn and innovate with technology. Volunteers come from any university and can identify as any gender but they must be at least 18 years of age. Volunteers will have access to the entire event and all of its resources in exchange for helping out. Once the application is complete, we will contact you directly with next steps. Come be(e) a part of change!</p>
     </div>
@@ -54,7 +103,7 @@ layout: default
 {% include different.html %}
 
 <!-- What to expect -->
-<section class="expect" style="padding-bottom: 100px;">
+<section id="expect" class="expect" style="padding-bottom: 100px;">
   <div class="container">
     <h1 class="text-center faq-header" style="font-family: 'Raleway', sans-serif !important;">What to Expect</h1>
     <div class="col-md-12" style="text-align:center;">
@@ -74,7 +123,7 @@ layout: default
 {% include resources.html %}
 
 <!-- FAQ -->
-<section class="faq">
+<section id="faq" class="faq">
     <div class="container">
       <div class="row faq-section">
         <div class="col-xs-12 col-sm-10 col-sm-offset-1">
@@ -94,7 +143,7 @@ layout: default
 </section>
 
 <!-- Sponsors -->
-<section class="sponsors">
+<section id="sponsors" class="sponsors">
   <div class="container-fluid">
     <h1 class="text-center style="font-family: 'Raleway', sans-serif;"">Our Sponsors</h1>
     <div class="row">
@@ -252,7 +301,7 @@ layout: default
 
 
 <!-- Meet the Team -->
-<section class="team">
+<section id="team" class="team">
     <div class="container">
     <div class="team-row">
   <div class="ps">

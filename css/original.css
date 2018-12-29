@@ -55,6 +55,19 @@ section {
  */
 
 
+.navbar-nav a{
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  /*padding-right: 10px !important;
+  padding-left: 10px !important;*/
+  margin-top: 5px;
+  margin-bottom: 3px;
+  margin-right: 5px;
+  line-height: 20px;
+}
+
 .hero hr {
   margin: 0;
   position: relative;
@@ -865,7 +878,7 @@ p.question{
     font-size:20px;
 }
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
+.active.accordion:hover {
     background-color: #C7E3F0;
 }
 
@@ -885,7 +898,7 @@ p.question{
     margin-left: 5px;
 }
 
-.active:after {
+.active.accordion:after {
     content: "\2212"; /* Unicode character for "minus" sign (-) */
 }
 /*
