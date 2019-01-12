@@ -1903,7 +1903,7 @@ background: #EBF9F3;
                 repeat(7, 4.4vw);
     grid-auto-rows: 4.7vw;
     grid-template-areas:
-         "g1 . g2 . g3  .  g5"    
+         "g1 . g2 . g3  .  g5"
          ". g6 . g7 . g4  ."
          ". . g8 . g9 . . ";
     justify-content: space-evenly;
@@ -1963,7 +1963,7 @@ background: #EBF9F3;
                 repeat(7, 7.5vw);
     grid-auto-rows: 7.5vw;
     grid-template-areas:
-         "g1 . g2 . g3  .  g5"    
+         "g1 . g2 . g3  .  g5"
          ". g6 . g7 . g4  ."
          ". . g8 . g9 . . ";
     justify-content: space-evenly;
@@ -1972,7 +1972,7 @@ background: #EBF9F3;
 
 
 @media (max-width: 700px){
-  
+
 .main-grid{
   grid-column-gap: 4vw;
   grid-row-gap: 10vw;
@@ -1987,4 +1987,8 @@ background: #EBF9F3;
          "g7 . g8"
          " . g9 .";
   }
+}
+
+section.bus{
+  background-color: #EBF9F3;
 }
