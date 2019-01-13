@@ -1992,3 +1992,27 @@ background: #EBF9F3;
 section.bus{
   background-color: #EBF9F3;
 }
+
+
+li.events-detail:hover {
+  background: #EBF9F3;
+}
+@media all and (max-width: 641px) {
+  li.date {
+    width: 100%;
+    border-bottom: 1px solid #000;
+    margin-bottom: 10px;
+  }
+  li.events {
+    border: none;
+    width: 100%;
+    margin-top: 0;
+  }
+  li.events-detail {
+    padding: 0;
+  }
+  li.date p {
+    margin: 0;
+  }
+
+}
