@@ -18,9 +18,6 @@ layout: default
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#apply">APPLY</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#about">ABOUT</a>
             </li>
             <li class="nav-item">
@@ -48,7 +45,7 @@ layout: default
 {% include about.html %}
 
 <!-- Icons -->
-<section class="icons">
+<!-- <section class="icons">
   <div class="container">
     <div class="icon-row">
         <h1 class="text-center" style="font-family: 'Raleway', sans-serif;">Hackathons Provide Endless Possibilities</h1>
@@ -79,17 +76,21 @@ layout: default
         </div>
       </div>
   </div>
-  </section>
+  </section> -->
 
 <!-- What Makes Us Different -->
-{% include different.html %}
+<!-- {% include different.html %} -->
 
 <!-- What to expect -->
 <section id="expect" class="expect" style="padding-bottom: 100px;">
   <div class="container">
-    <h1 class="text-center faq-header" style="font-family: 'Raleway', sans-serif !important;">Schedule Highlights</h1>
-    <p class="text-center">Check back for our live schedule!</p>
-    <div class="col-md-6">
+    <h1 class="text-center faq-header" style="font-family: 'Raleway', sans-serif !important;">Check out our Schedule!</h1>
+
+    <div class="apply-buttons">
+      <a href="https://www.hackher413.com/schedule.html" style="text-decoration:none; color:white;"><button class="apply-btn-hover color-1">Event Schedule</button></a>
+
+  </div>
+    <!-- <div class="col-md-6">
       <ul class="main" style="list-style: none; max-width: 100%; ">
         <li class="date" style="width: 17%; padding: 15% 1% 0 0; float: left;">
           <h3 style="font-size: 1.5em;">Feb 9</h3>
@@ -192,7 +193,7 @@ layout: default
           </ul>
         </li>
       </ul>
-    </div>
+    </div> -->
   </div>
 
 </section>
@@ -210,8 +211,14 @@ layout: default
 {% include keynote.html %}
 
 <!-- Prizes Section -->
-{% include prize-categories.html %}
+<!-- {% include prize-categories.html %} -->
+<section id="prizes" class="prizes">
+  <div class="container">
+    <h1 class="text-center faq-header" style="font-family: 'Raleway', sans-serif !important;">A Sneak Peak at some of our Prizes...</h1>
 
+<iframe class="airtable-embed" src="https://airtable.com/embed/shrJsE1iEVxY8i1eR?backgroundColor=purpleLight&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+</div>
+</section>
 <!-- Resources Section -->
 {% include resources.html %}
 
@@ -472,6 +479,12 @@ layout: default
         <h2 class="name">Nila Abirami Sadeeshkumar</h2>
         <p class="position">Head of Volunteers</p>
         <a href="https://www.linkedin.com/in/nila-abirami-sadeeshkumar/"><i class="fab fa-linkedin fa-2x"></i></a>
+  </div>
+  <div class="column">
+      <img class="bitmoji" src="images/ishan-bitmoji.png" alt="Ishan Khatri, HackUMass Director">
+        <h2 class="name">Ishan Khatri</h2>
+        <p class="position">HackUMass Director</p>
+        <a href="https://www.linkedin.com/in/ikhatri/"><i class="fab fa-linkedin fa-2x"></i></a>
   </div>
   </div>
 </div>
