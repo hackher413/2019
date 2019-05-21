@@ -1519,21 +1519,26 @@ background-size: 1800% 1800%;
 		cursor: pointer;
 }
 
-.sign-up-modal {
-    display: none;
-    position:absolute;
-    margin-top: -300px;
-    z-index: 60000;
-		color: #fefefe;
-		min-width: 250px;
-    width: 200%;
-		max-width: 700px;
-		background-image: linear-gradient(130deg, #EBF9F3, #CA7C83, #D099D5,  #C7E3F0, #C3BDF1);
-background-size: 1800% 1800%;
+.email-modal-header{
+  text-align: center;
+}
 
--webkit-animation: rainbow 12s ease infinite;
--z-animation: rainbow 12s ease infinite;
--o-animation: rainbow 12s ease infinite;
+.sign-up-modal {
+  text-align: center;
+  display: none;
+  position:absolute;
+  margin-top: -300px;
+  z-index: 60000;
+	color: #fefefe;
+	min-width: 250px;
+  width: 200%;
+	max-width: 700px;
+	background-image: linear-gradient(130deg, #EBF9F3, #CA7C83, #D099D5,  #C7E3F0, #C3BDF1);
+  background-size: 1800% 1800%;
+
+  -webkit-animation: rainbow 12s ease infinite;
+  -z-animation: rainbow 12s ease infinite;
+  -o-animation: rainbow 12s ease infinite;
   animation: rainbow 12s ease infinite;}
 
 @-webkit-keyframes rainbow {
