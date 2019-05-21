@@ -1598,6 +1598,23 @@ background-size: 1800% 1800%;
 		color: #222;
 }
 
+.sign-up-modal input[type="text"] {
+    font-size: 1.4em;
+    padding: 10px;
+    border-width: 2px;
+    border-color: rgba(247, 247, 247, .3);
+    border-style: solid;
+    background: url(transparent);
+  }
+  .sign-up-modal input[type="text"] {
+  		outline: 0;
+  }
+  .sign-up-modal input[type="text"]:focus, {
+  		background: white;
+  		transition: all 0.3s ease;
+  		color: #222;
+  }
+
 .sign-up-modal a {
 		color: #fefefe;
 		text-decoration: underline;
